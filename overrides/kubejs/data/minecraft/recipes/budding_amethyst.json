@@ -1,0 +1,24 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "minecraft:budding_amethyst"
+  },
+  "mana": 12000,
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/amethyst"
+    },
+    {
+      "tag": "forge:gems/amethyst"
+    },
+    {
+      "item": "mysticalagriculture:amethyst_seeds"
+    },
+    {
+      "tag": "forge:gems/amethyst"
+    },
+    {
+      "item": "mysticalagriculture:amethyst_seeds"
+    }
+  ]
+}

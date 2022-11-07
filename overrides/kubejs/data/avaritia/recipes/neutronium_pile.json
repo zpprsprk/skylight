@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "avaritia:neutron_pile"
+  },
+  "pattern": [
+    " C ",
+    "CCC",
+    " C "
+  ],
+  "key": {
+    "C": {
+      "item": "mysticalagriculture:neutronium_essence"
+    }
+  }
+}

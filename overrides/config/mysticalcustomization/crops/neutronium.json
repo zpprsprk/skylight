@@ -1,0 +1,15 @@
+{
+	"name": "Neutronium",
+	"type": "mysticalagriculture:resource",
+	"tier": "mysticalcustomization:creative",
+	"ingredient": {
+		"item": "avaritia:neutronium_ingot"
+	},
+	"color": "303139",
+	"textures": {
+		"flower": "mysticalagriculture:block/flower_ingot",
+		"essence": "mysticalagriculture:item/essence_ingot",
+		"seeds": "mysticalagriculture:item/mystical_seeds"
+	},
+	"crux": "avaritia:neutronium_block"
+}
