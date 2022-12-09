@@ -7,6 +7,7 @@ minecraft:cold_ocean
 minecraft:crimson_forest
 minecraft:dark_forest
 minecraft:deep_cold_ocean
+minecraft:deep_dark
 minecraft:deep_frozen_ocean
 minecraft:deep_lukewarm_ocean
 minecraft:deep_ocean
@@ -27,6 +28,7 @@ minecraft:jagged_peaks
 minecraft:jungle
 minecraft:lukewarm_ocean
 minecraft:lush_caves
+minecraft:mangrove_swamp
 minecraft:meadow
 minecraft:mushroom_fields
 minecraft:nether_wastes
@@ -59,4 +61,3 @@ minecraft:windswept_gravelly_hills
 minecraft:windswept_hills
 minecraft:windswept_savanna
 minecraft:wooded_badlands
-quark:glimmering_weald

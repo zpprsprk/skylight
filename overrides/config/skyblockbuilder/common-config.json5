@@ -38,6 +38,13 @@
     // The dimension the islands will be generated in.
     "dimension": "minecraft:overworld",
     
+    // The entities which you can interact with within the spawn protection
+    // This is a resource list. See https://moddingx.org/libx/org/moddingx/libx/util/data/ResourceList.html#use_resource_lists_in_configs
+    "interactionEntitiesInSpawnProtection": {
+      "allow_list": true,
+      "elements": []
+    },
+    
     // The radius to find a valid spawn if no given spawn is valid
     // Minimum: 0
     "radius": 50,
@@ -80,7 +87,7 @@
     // All the features that should be generated.
     // A list with all possible structures can be found in config/skyblockbuilder/data/features.txt
     // INFO: The two default values are required for the obsidian towers in end. If this is missing, they will be first generated when respawning the dragon.
-    // This is a resource list. See https://noeppi-noeppi.github.io/LibX/io/github/noeppi_noeppi/libx/util/ResourceList.html#use_resource_lists_in_configs
+    // This is a resource list. See https://moddingx.org/libx/org/moddingx/libx/util/data/ResourceList.html#use_resource_lists_in_configs
     "generationFeatures": {
       "allow_list": true,
       "elements": [
@@ -92,7 +99,7 @@
     
     // All the structures that should be generated.
     // A list with all possible structures can be found in config/skyblockbuilder/data/structures.txt
-    // This is a resource list. See https://noeppi-noeppi.github.io/LibX/io/github/noeppi_noeppi/libx/util/ResourceList.html#use_resource_lists_in_configs
+    // This is a resource list. See https://moddingx.org/libx/org/moddingx/libx/util/data/ResourceList.html#use_resource_lists_in_configs
     "generationStructures": {
       "allow_list": true,
       "elements": [
@@ -125,8 +132,8 @@
     
     "Spawns": {
     
-      // Should players be able to modify their spawn positions? [default: false]
-      "modifySpawns": false,
+      // Should players be able to modify their spawn positions? [default: true]
+      "modifySpawns": true,
       
       // The range from island center for possible spawns to add. [default: 50]
       "range": 50
@@ -155,14 +162,31 @@
   
     // A list of biomes for each dimension.
     // You can not use this for the end dimension. The end dimension will always have it's five biomes.
-    // These are resource lists. See https://noeppi-noeppi.github.io/LibX/io/github/noeppi_noeppi/libx/util/ResourceList.html#use_resource_lists_in_configs
+    // Overworld has all oceans by default because animals cannot spawn in these biomes.
+    // These are resource lists. See https://moddingx.org/libx/org/moddingx/libx/util/data/ResourceList.html#use_resource_lists_in_configs
     "biomes": {
       "minecraft:overworld": {
         "allow_list": false,
-        "elements": []
+        "elements": [
+        ]
       },
       "minecraft:the_nether": {
         "allow_list": false,
+        "elements": []
+      }
+    },
+    
+    "carvers": {
+      "minecraft:overworld": {
+        "allow_list": true,
+        "elements": []
+      },
+      "minecraft:the_nether": {
+        "allow_list": true,
+        "elements": []
+      },
+      "minecraft:the_end": {
+        "allow_list": true,
         "elements": []
       }
     },

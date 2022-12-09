@@ -1,0 +1,103 @@
+{
+	id: "608BE5965037BB09"
+	group: ""
+	order_index: 0
+	filename: "getting_started"
+	title: "Getting Started"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.5d
+			y: -4.0d
+			subtitle: "A pair of shears will be helpful..."
+			dependencies: ["7A223053FD557EBA"]
+			id: "62C61F89317F3E21"
+			tasks: [{
+				id: "7380F595ECC4BE2E"
+				type: "item"
+				item: "watercondenser:watercondenser"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.0d
+			subtitle: "A handful of things placed underneath can make it go faster."
+			dependencies: ["7A223053FD557EBA"]
+			id: "73F029072F9248DC"
+			tasks: [{
+				id: "3365D35EBC9C6D6A"
+				type: "item"
+				item: "lava_source:stone_lava_source_furnace"
+			}]
+			rewards: [{
+				id: "4AA7A8323EC6494B"
+				type: "item"
+				item: {
+					id: "lava_source:lava_source_guide"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 0
+							Items: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			subtitle: "Using a (wooden) bucket, pull out the water and lava to make a vanilla cobble generator. (careful with the wooden buckets, lava burns)"
+			description: ["Using the other (Stone/Basalt) methods of vanilla generators will produce more resources. Placing certain blocks (Deepslate, End Stone) underneath where the block generates can alter what generates as well."]
+			dependencies: [
+				"62C61F89317F3E21"
+				"73F029072F9248DC"
+			]
+			id: "6511C246E7E63270"
+			tasks: [{
+				id: "71CCCD4893192BCE"
+				type: "checkmark"
+				title: "Create a \"Vanilla\" cobble generator"
+			}]
+			rewards: [{
+				id: "0351AFE0002DB92F"
+				type: "item"
+				item: {
+					id: "minecraft:stone_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Cobble and Wood"
+			x: -2.0d
+			y: -5.0d
+			description: ["Shift-Right-Clicking on the grass will get pebbles for crafting cobblestone and that tree overthere can get you some wood."]
+			id: "7A223053FD557EBA"
+			tasks: [
+				{
+					id: "63DD3A438B96BC71"
+					type: "item"
+					item: "minecraft:cobblestone"
+				}
+				{
+					id: "701D292C63E9E307"
+					type: "item"
+					title: "Any #minecraft:logs"
+					icon: "minecraft:oak_log"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+				}
+			]
+		}
+	]
+}
