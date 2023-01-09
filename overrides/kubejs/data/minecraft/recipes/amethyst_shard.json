@@ -1,0 +1,10 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+    {"item": "minecraft:prismarine_crystals"}
+  ],
+  "energy": 4000,
+  "result": {
+    "item": "minecraft:amethyst_shard"
+  }
+}

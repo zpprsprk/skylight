@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "tag": "forge:dusts/diamond"
+  },
+  "base": {
+    "item": "exnihilosequentia:iron_mesh"
+  },
+  "result": {
+    "item": "exnihilosequentia:diamond_mesh"
+  }
+}

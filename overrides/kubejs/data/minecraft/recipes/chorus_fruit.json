@@ -1,0 +1,10 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+    {"item": "minecraft:apple"}
+  ],
+  "energy": 4000,
+  "result": {
+    "item": "minecraft:chorus_fruit"
+  }
+}

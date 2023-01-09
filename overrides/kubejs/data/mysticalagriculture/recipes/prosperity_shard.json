@@ -1,0 +1,11 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+    {"item": "minecraft:quartz"},
+    {"item": "minecraft:quartz"}
+  ],
+  "energy": 2000,
+  "result": {
+    "item": "mysticalagriculture:prosperity_shard"
+  }
+}

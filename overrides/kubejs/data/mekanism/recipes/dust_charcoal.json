@@ -1,0 +1,15 @@
+{
+  "type": "silentgear:damage_item",
+  "damage": 1,
+  "ingredients": [
+    {
+      "tag": "forge:hammers"
+    },
+    {
+      "item": "minecraft:charcoal"
+    }
+  ],
+  "result": {
+    "item": "mekanism:dust_charcoal"
+  }
+}

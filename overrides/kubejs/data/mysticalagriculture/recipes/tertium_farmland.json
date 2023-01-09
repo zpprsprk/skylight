@@ -1,0 +1,35 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalagriculture:prudentium_farmland"
+  },
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:tertium_essence"
+    },
+    {
+      "item": "mysticalagriculture:mystical_fertilizer"
+    },
+    {
+      "item": "mysticalagriculture:tertium_essence"
+    },
+    {
+      "item": "mysticalagriculture:mystical_fertilizer"
+    },
+    {
+      "item": "mysticalagriculture:tertium_essence"
+    },
+    {
+      "item": "mysticalagriculture:mystical_fertilizer"
+    },
+    {
+      "item": "mysticalagriculture:tertium_essence"
+    },
+    {
+      "item": "mysticalagriculture:mystical_fertilizer"
+    }
+  ],
+  "result": {
+    "item": "mysticalagriculture:tertium_farmland"
+  }
+}

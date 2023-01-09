@@ -1,0 +1,35 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalagriculture:imperium_farmland"
+  },
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:supremium_essence"
+    },
+    {
+      "item": "mysticalagriculture:mystical_fertilizer"
+    },
+    {
+      "item": "mysticalagriculture:supremium_essence"
+    },
+    {
+      "item": "mysticalagriculture:mystical_fertilizer"
+    },
+    {
+      "item": "mysticalagriculture:supremium_essence"
+    },
+    {
+      "item": "mysticalagriculture:mystical_fertilizer"
+    },
+    {
+      "item": "mysticalagriculture:supremium_essence"
+    },
+    {
+      "item": "mysticalagriculture:mystical_fertilizer"
+    }
+  ],
+  "result": {
+    "item": "mysticalagriculture:supremium_farmland"
+  }
+}

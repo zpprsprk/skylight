@@ -1,0 +1,35 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalagriculture:supremium_farmland"
+  },
+  "ingredients": [
+    {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    {
+      "item": "mysticalagriculture:mystical_fertilizer"
+    },
+    {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    {
+      "item": "mysticalagriculture:mystical_fertilizer"
+    },
+    {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    {
+      "item": "mysticalagriculture:mystical_fertilizer"
+    },
+    {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    {
+      "item": "mysticalagriculture:mystical_fertilizer"
+    }
+  ],
+  "result": {
+    "item": "mysticalagradditions:insanium_farmland"
+  }
+}

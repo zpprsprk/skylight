@@ -4,7 +4,7 @@
     "End": {
     
       // Should end generate as in default world type? [default: false]
-      "Default": true,
+      "Default": false,
       
       // Should the main island be generated as normal? [default: true]
       "mainIsland": true
@@ -93,7 +93,14 @@
       "elements": [
         "minecraft:end_spike",
         "minecraft:end_gateway",
-		"minecraft:chorus_plant"
+        "minecraft:end_gateway_delayed",
+        "minecraft:end_gateway_return",
+        "minecraft:chorus_plant",
+        "minecraft:ore_ancient_debris_large",
+        "minecraft:ore_ancient_debris_small",
+        "minecraft:ore_quartz",
+        "minecraft:ore_soul_sand",
+        "minecraft:ore_nether_gold"
       ]
     },
     
@@ -103,8 +110,10 @@
     "generationStructures": {
       "allow_list": true,
       "elements": [
+        "minecraft:ancient_city",
         "minecraft:fortress",
-		"minecraft:stronghold",
+        "minecraft:bastion_remnant",
+        "minecraft:stronghold",
 		"minecraft:monument",
 		"minecraft:end_city",
 		"minecraft:village_desert",
@@ -113,11 +122,10 @@
 		"minecraft:village_snowy",
 		"minecraft:village_taiga",
 		"minecraft:mansion",
-		"tconstruct:earth_slime_island",
-        "tconstruct:sky_slime_island",
-		"tconstruct:end_slime_island",
-        "tconstruct:clay_island",
-        "tconstruct:blood_island"
+        "minecraft:pillager_outpost",
+        "minecraft:swamp_hut",
+        "minecraft:shipwreck",
+        "minecraft:shipwreck_beached"
       ]
     }
   },
@@ -167,8 +175,7 @@
     "biomes": {
       "minecraft:overworld": {
         "allow_list": false,
-        "elements": [
-        ]
+        "elements": []
       },
       "minecraft:the_nether": {
         "allow_list": false,
@@ -209,9 +216,9 @@
     // The block settings for generating the different dimensions surfaces.
     // Same format as flat world generation settings (blocks only)
     "surfaceSettings": {
-      "minecraft:overworld": "minecraft:bedrock,2*minecraft:dirt,minecraft:grass_block",
-      "minecraft:the_nether": "",
-      "minecraft:the_end": ""
+      "minecraft:overworld": "minecraft:bedrock,126*minecraft:dirt,minecraft:grass_block",
+      "minecraft:the_nether": "minecraft:bedrock,47*minecraft:netherrack",
+      "minecraft:the_end": "minecraft:bedrock,47*minecraft:end_stone"
     }
   }
 }

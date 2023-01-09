@@ -1,0 +1,15 @@
+{
+  "type": "silentgear:damage_item",
+  "damage": 1,
+  "ingredients": [
+    {
+      "tag": "forge:hammers"
+    },
+    {
+      "tag": "forge:gems/lapis"
+    }
+  ],
+  "result": {
+    "item": "mekanism:dust_lapis_lazuli"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "tag": "forge:dusts/emerald"
+  },
+  "base": {
+    "item": "exnihilosequentia:diamond_mesh"
+  },
+  "result": {
+    "item": "exnihilosequentia:emerald_mesh"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "tag": "forge:dusts/iron"
+  },
+  "base": {
+    "item": "exnihilosequentia:flint_mesh"
+  },
+  "result": {
+    "item": "exnihilosequentia:iron_mesh"
+  }
+}

@@ -11,18 +11,18 @@
   "spawn": null,
   
   "spawns": {
-    "default": [
-      [ 6, 3, 5 ]
-    ]
+	"shiba": [
+	  [ 2, 10, 2 ]
+	]
   },
   
   // The list of templates being available. The first entry is the default template.
   "templates": [
     {
-      "name": "default",
+      "name": "shiba",
       "desc": "",
-      "file": "default.nbt",
-      "spawns": "default",
+      "file": "shiba.nbt",
+      "spawns": "shiba",
       "direction": "south"
     }
   ]

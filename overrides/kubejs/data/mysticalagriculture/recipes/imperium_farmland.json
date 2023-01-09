@@ -1,0 +1,35 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalagriculture:tertium_farmland"
+  },
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:imperium_essence"
+    },
+    {
+      "item": "mysticalagriculture:mystical_fertilizer"
+    },
+    {
+      "item": "mysticalagriculture:imperium_essence"
+    },
+    {
+      "item": "mysticalagriculture:mystical_fertilizer"
+    },
+    {
+      "item": "mysticalagriculture:imperium_essence"
+    },
+    {
+      "item": "mysticalagriculture:mystical_fertilizer"
+    },
+    {
+      "item": "mysticalagriculture:imperium_essence"
+    },
+    {
+      "item": "mysticalagriculture:mystical_fertilizer"
+    }
+  ],
+  "result": {
+    "item": "mysticalagriculture:imperium_farmland"
+  }
+}
