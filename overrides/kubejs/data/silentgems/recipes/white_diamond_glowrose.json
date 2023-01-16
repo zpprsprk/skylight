@@ -1,0 +1,14 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "minecraft:small_flowers"
+    },
+    {
+      "tag": "forge:gems/white_diamond"
+    }
+  ],
+  "result": {
+    "item": "silentgems:white_diamond_glowrose"
+  }
+}

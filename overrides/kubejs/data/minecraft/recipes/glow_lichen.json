@@ -1,0 +1,35 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "minecraft:vine"
+  },
+  "ingredients": [
+    {
+      "item": "silentgear:glowing_dust"
+    },
+    {
+      "item": "minecraft:glow_berries"
+    },
+    {
+      "item": "silentgear:glowing_dust"
+    },
+    {
+      "item": "minecraft:glow_berries"
+    },
+    {
+      "item": "silentgear:glowing_dust"
+    },
+    {
+      "item": "minecraft:glow_berries"
+    },
+    {
+      "item": "silentgear:glowing_dust"
+    },
+    {
+      "item": "minecraft:glow_berries"
+    }
+  ],
+  "result": {
+    "item": "minecraft:glow_lichen"
+  }
+}

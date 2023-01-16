@@ -1,0 +1,23 @@
+{
+    "type": "exnihilosequentia:sieve",
+    "input": {
+        "item": "exnihilosequentia:crushed_granite"
+    },
+    "result": {
+        "item": "silentgems:white_diamond"
+    },
+    "rolls": [
+        {
+            "chance": 0.05,
+            "mesh": "diamond"
+        },
+        {
+            "chance": 0.1,
+            "mesh": "emerald"
+        },
+        {
+            "chance": 0.2,
+            "mesh": "netherite"
+        }
+    ]
+}

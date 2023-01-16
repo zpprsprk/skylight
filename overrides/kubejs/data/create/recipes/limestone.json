@@ -1,0 +1,35 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "minecraft:stone"
+  },
+  "ingredients": [
+    {
+      "tag": "forge:dyes/light_gray"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "tag": "forge:dyes/light_gray"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "tag": "forge:dyes/light_gray"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "tag": "forge:dyes/light_gray"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    }
+  ],
+  "result": {
+    "item": "create:limestone"
+  }
+}

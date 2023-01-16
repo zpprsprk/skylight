@@ -1,0 +1,23 @@
+{
+  "type": "exnihilosequentia:sieve",
+  "input": {
+    "item": "exnihilosequentia:crushed_netherrack"
+  },
+  "result": {
+    "item": "bigreactors:benitoite_crystal"
+  },
+  "rolls": [
+    {
+      "chance": 0.02,
+      "mesh": "diamond"
+    },
+    {
+      "chance": 0.04,
+      "mesh": "emerald"
+    },
+    {
+      "chance": 0.06,
+      "mesh": "netherite"
+    }
+  ]
+}

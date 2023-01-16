@@ -1,0 +1,29 @@
+{
+    "type": "exnihilosequentia:sieve",
+    "input": {
+        "item": "exnihilosequentia:crushed_end_stone"
+    },
+    "result": {
+        "item": "minecraft:shulker_shell"
+    },
+    "rolls": [
+       
+        {
+            "chance": 0.001,
+            "mesh": "iron"
+        },
+        {
+            "chance": 0.01,
+            "mesh": "diamond"
+        },
+        {
+            "chance": 0.025,
+            "mesh": "emerald"
+        },
+        {
+            "chance": 0.05,
+            "mesh": "netherite"
+        }
+    ],
+    "waterlogged": true 
+}

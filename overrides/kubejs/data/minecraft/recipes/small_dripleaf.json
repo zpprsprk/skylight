@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NWN",
+    " N ",
+    "N N"
+  ],
+  "key": {
+    "W": {
+      "item": "mysticalagriculture:water_essence"
+    },
+    "N": {
+      "item": "mysticalagriculture:nature_essence"
+    }
+  },
+  "result": {
+    "item": "minecraft:small_dripleaf",
+    "count": 16
+  }
+}

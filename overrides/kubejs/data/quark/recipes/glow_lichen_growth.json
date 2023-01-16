@@ -1,0 +1,35 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "minecraft:grass"
+  },
+  "ingredients": [
+    {
+      "item": "silentgear:glowing_dust"
+    },
+    {
+      "item": "minecraft:glow_berries"
+    },
+    {
+      "item": "silentgear:glowing_dust"
+    },
+    {
+      "item": "minecraft:glow_berries"
+    },
+    {
+      "item": "silentgear:glowing_dust"
+    },
+    {
+      "item": "minecraft:glow_berries"
+    },
+    {
+      "item": "silentgear:glowing_dust"
+    },
+    {
+      "item": "minecraft:glow_berries"
+    }
+  ],
+  "result": {
+    "item": "quark:glow_lichen_growth"
+  }
+}

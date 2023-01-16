@@ -1,0 +1,14 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "minecraft:small_flowers"
+    },
+    {
+      "tag": "forge:gems/topaz"
+    }
+  ],
+  "result": {
+    "item": "silentgems:topaz_glowrose"
+  }
+}

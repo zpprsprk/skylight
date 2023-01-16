@@ -1,0 +1,37 @@
+{
+    "type": "exnihilosequentia:sieve",
+    "input": {
+        "item": "minecraft:sand"
+
+    },
+    "result": {
+        "item": "exnihilosequentia:tube_coral_larva"
+    },
+    "rolls": [
+        {
+            "chance": 0.01,
+            "mesh": "string"
+        },
+        {
+            "chance": 0.02,
+            "mesh": "flint"
+        },
+        {
+            "chance": 0.03,
+            "mesh": "iron"
+        },
+        {
+            "chance": 0.07,
+            "mesh": "diamond"
+        },
+        {
+            "chance": 0.10,
+            "mesh": "emerald"
+        },
+        {
+            "chance": 0.15,
+            "mesh": "netherite"
+        }
+    ],
+    "waterlogged": true
+}

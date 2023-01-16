@@ -1,0 +1,27 @@
+{
+    "type": "exnihilosequentia:sieve",
+    "input": {
+        "item": "exnihilosequentia:dust"
+    },
+    "result": {
+        "item": "minecraft:glowstone_dust"
+    },
+    "rolls": [
+        {
+            "chance": 0.0625,
+            "mesh": "iron"
+        },
+        {
+            "chance": 0.08,
+            "mesh": "diamond"
+        },
+        {
+            "chance": 0.10,
+            "mesh": "emerald"
+        },
+        {
+            "chance": 0.15,
+            "mesh": "netherite"
+        }
+    ]
+}

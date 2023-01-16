@@ -1,0 +1,17 @@
+{
+    "type": "exnihilosequentia:sieve",
+    "input": {
+        "item": "exnihilosequentia:crushed_end_stone"
+    },
+    "result": {
+        "item": "quark:chorus_twist"
+    },
+    "rolls": [
+       
+        {
+            "chance": 0.1,
+            "mesh": "flint"
+        }
+    ],
+    "waterlogged": true 
+}

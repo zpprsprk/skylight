@@ -125,7 +125,8 @@
         "minecraft:pillager_outpost",
         "minecraft:swamp_hut",
         "minecraft:shipwreck",
-        "minecraft:shipwreck_beached"
+        "minecraft:shipwreck_beached",
+        "ae2:meteorite"
       ]
     }
   },
