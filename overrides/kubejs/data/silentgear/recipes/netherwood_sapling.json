@@ -1,0 +1,35 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "minecraft:spruce_sapling"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    }
+  ],
+  "result": {
+    "item": "silentgear:netherwood_sapling"
+  }
+}

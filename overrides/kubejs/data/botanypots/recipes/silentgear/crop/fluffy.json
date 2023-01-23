@@ -1,0 +1,42 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "silentgear:fluffy_seeds",
+        "silentgear:fluffy_puff"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "silentgear:fluffy_seeds"
+  },
+  "categories": [
+    "dirt",
+    "farmland"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "silentgear:fluffy_plant"
+  },
+  "drops": [
+    {
+      "chance": 1.0,
+      "output": {
+        "item": "silentgear:fluffy_puff"
+      },
+      "minRolls": 2,
+      "maxRolls": 5
+    },
+    {
+      "chance": 0.05,
+      "output": {
+        "item": "silentgear:fluffy_seeds"
+      },
+      "minRolls": 2,
+      "maxRolls": 5
+    }
+  ]
+}

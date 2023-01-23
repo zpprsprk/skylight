@@ -1,0 +1,35 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "minecraft:spruce_sapling"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:experience_bottle"
+    },
+    {
+      "item": "minecraft:experience_bottle"
+    },
+    {
+      "item": "minecraft:experience_bottle"
+    },
+    {
+      "item": "minecraft:experience_bottle"
+    },
+    {
+      "item": "minecraft:experience_bottle"
+    },
+    {
+      "item": "minecraft:experience_bottle"
+    },
+    {
+      "item": "minecraft:experience_bottle"
+    },
+    {
+      "item": "minecraft:experience_bottle"
+    }
+  ],
+  "result": {
+    "item": "quark:ancient_sapling"
+  }
+}

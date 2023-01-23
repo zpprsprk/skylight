@@ -1,0 +1,35 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "minecraft:tinted_glass"
+  },
+  "ingredients": [
+    {
+      "tag": "forge:dusts/coal"
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    {
+      "tag": "forge:dusts/coal"
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    {
+      "tag": "forge:dusts/coal"
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    {
+      "tag": "forge:dusts/coal"
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    }
+  ],
+  "result": {
+    "item": "cyclic:dark_glass"
+  }
+}

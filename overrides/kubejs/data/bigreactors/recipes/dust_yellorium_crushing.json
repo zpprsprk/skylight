@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "tag": "forge:ingots/yellorium"
+    }
+  },
+  "output": {
+    "item": "bigreactors:yellorium_dust"
+  }
+}

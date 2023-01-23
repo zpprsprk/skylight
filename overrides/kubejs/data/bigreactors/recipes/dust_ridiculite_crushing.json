@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "tag": "forge:ingots/ridiculite"
+    }
+  },
+  "output": {
+    "item": "bigreactors:ridiculite_dust"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "conditions": [
+    {
+      "type": "cucumber:enabled",
+      "item": "extendedcrafting:elite_table"
+    }
+  ],
+  "pattern": [
+    "AAAAA",
+    "BCDCB",
+    "BDDDB",
+    "BCDCB",
+    "BEEEB"
+  ],
+  "key": {
+    "A": {
+      "item": "extendedcrafting:elite_catalyst"
+    },
+    "B": {
+      "item": "extendedcrafting:elite_component"
+    },
+    "C": [
+      {
+        "item": "extendedcrafting:advanced_table"
+      },
+      {
+        "item": "extendedcrafting:advanced_auto_table"
+      }
+    ],
+    "D": {
+      "tag": "forge:storage_blocks/diamond"
+    },
+    "E": {
+      "item": "extendedcrafting:black_iron_slate"
+    }
+  },
+  "result": {
+    "item": "extendedcrafting:elite_table"
+  }
+}

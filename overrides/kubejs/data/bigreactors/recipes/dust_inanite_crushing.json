@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "tag": "forge:ingots/inanite"
+    }
+  },
+  "output": {
+    "item": "bigreactors:inanite_dust"
+  }
+}

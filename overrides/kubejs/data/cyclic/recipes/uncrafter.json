@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ror",
+    "gsg",
+    "cuc"
+  ],
+  "key": {
+    "c": {
+      "item": "minecraft:calcite"
+    },
+    "s": {
+      "item": "cyclic:gem_obsidian"
+    },
+    "o": {
+      "tag": "forge:obsidian"
+    },
+    "g": {
+      "tag": "forge:nuggets/netherite"
+    },
+    "r": {
+      "tag": "forge:storage_blocks/diamond"
+    },
+    "u": {
+      "item": "extendedcrafting:ultimate_singularity"
+    }
+  },
+  "result": {
+    "item": "cyclic:uncrafter",
+    "count": 1
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAAAAAAAA",
+    "ABCDCDCBA",
+    "ACEFEFECA",
+    "ADFGHGFDA",
+    "ACEIJIECA",
+    "ADFGHGFDA",
+    "ACEFEFECA",
+    "ABCDCDCBA",
+    "AAAAAAAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "rftoolsbase:machine_frame"
+    },
+    "B": {
+      "item": "mysticalagradditions:creative_essence"
+    },
+    "C": {
+      "item": "rftoolspower:powercell_card"
+    },
+    "D": {
+      "item": "extendedcrafting:the_ultimate_block"
+    },
+    "E": {
+      "item": "rftoolspower:dimensionalcell_advanced"
+    },
+    "F": {
+      "item": "rftoolspower:cell3"
+    },
+    "G": {
+      "item": "extendedcrafting:the_ultimate_catalyst"
+    },
+    "H": {
+      "item": "bigreactors:reinforced_turbinecreativesteamgenerator"
+    },
+    "I": {
+      "item": "ae2:creative_energy_cell"
+    },
+    "J": {
+      "item": "extendedcrafting:ultimate_singularity"
+    }
+  },
+  "result": {
+    "item": "rftoolspower:dimensionalcell_creative"
+  }
+}

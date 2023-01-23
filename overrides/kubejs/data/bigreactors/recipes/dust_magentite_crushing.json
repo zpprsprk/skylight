@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "tag": "forge:ingots/magentite"
+    }
+  },
+  "output": {
+    "item": "bigreactors:magentite_dust"
+  }
+}

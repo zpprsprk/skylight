@@ -1,0 +1,12 @@
+{
+  "type": "exnihilosequentia:fluid_item",
+  "fluid": {
+    "fluid": "mekanismgenerators:fusion_fuel"
+  },
+  "input": {
+    "item": "extendedcrafting:crystaltine_block"
+  },
+  "result": {
+    "item": "extendedcrafting:the_ultimate_block"
+  }
+}

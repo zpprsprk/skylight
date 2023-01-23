@@ -1,0 +1,43 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "conditions": [
+    {
+      "type": "cucumber:enabled",
+      "item": "extendedcrafting:ultimate_table"
+    }
+  ],
+  "pattern": [
+    "AAAAAAA",
+    "BCDCDCB",
+    "BDDDDDB",
+    "BCDCDCB",
+    "BDDDDDB",
+    "BCDCDCB",
+    "BEEEEEB"
+  ],
+  "key": {
+    "A": {
+      "item": "extendedcrafting:ultimate_catalyst"
+    },
+    "B": {
+      "item": "extendedcrafting:ultimate_component"
+    },
+    "C": [
+      {
+        "item": "extendedcrafting:elite_table"
+      },
+      {
+        "item": "extendedcrafting:elite_auto_table"
+      }
+    ],
+    "D": {
+      "tag": "forge:storage_blocks/emerald"
+    },
+    "E": {
+      "item": "extendedcrafting:black_iron_slate"
+    }
+  },
+  "result": {
+    "item": "extendedcrafting:ultimate_table"
+  }
+}

@@ -1,17 +1,23 @@
 // priority: 0
 
-settings.logAddedRecipes = true
-settings.logRemovedRecipes = true
-settings.logSkippedRecipes = false
-settings.logErroringRecipes = true
-
 console.info('Hello, World! (You will see this line every time server resources reload)')
 
-onEvent('recipes', event => {
-	// Change recipes here
+ServerEvents.recipes(event => {
+    // Change recipes here
+    // yellorium from uranium essence fix
+    event.remove({id: 'mysticalagriculture:essence/common/uranium_ingot'})
+    event.shaped(Item.of('mekanism:ingot_uranium', 2).toJson(),
+        [
+            'EEE',
+            'E E',
+            'EEE'
+        ],
+        {
+            E: 'mysticalagriculture:uranium_essence'
+        })
 })
 
-onEvent('item.tags', event => {
+ServerEvents.tags('item', event => {
 	// Get the #forge:cobblestone tag collection and add Diamond Ore to it
 	// event.get('forge:cobblestone').add('minecraft:diamond_ore')
 
