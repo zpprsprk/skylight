@@ -1,0 +1,11 @@
+v. 2.1.3
+Added:
+Avaritia Lite
+Crafting Tweaks
+Pickle Tweaks
+Updated:
+A bunch of mods
+
+Changes:
+a few recipe refinements
+more quests added

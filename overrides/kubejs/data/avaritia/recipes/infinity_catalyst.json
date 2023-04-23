@@ -1,80 +1,64 @@
 {
-  "type": "avaritia:extreme_shapeless",
-  "result": {
-    "item": "avaritia:infinity_catalyst"
-  },
-  "ingredients": [
-    {
-      "item": "avaritia:diamond_lattice"
-    },
-    {
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "A   B   A",
+    " CDEFEDC ",
+    " GHIJIHG ",
+    " KLMNMLK ",
+    "BFJNONJFB",
+    " KLMNMLK ",
+    " GHIJIHG ",
+    " CDEFEDC ",
+    "A   B   A"
+  ],
+  "key": {
+    "A": {
       "item": "avaritia:crystal_matrix_ingot"
     },
-    {
-      "item": "avaritia:neutron_pile"
+    "B": {
+      "item": "avaritia:diamond_lattice"
     },
-    {
-      "item": "avaritia:neutron_nugget"
+    "C": {
+      "item": "avaritia:crystal_matrix"
     },
-    {
-      "item": "avaritia:neutronium_ingot"
+    "D": {
+      "item": "avaritia:pileof_neutrons"
     },
-    {
+    "E": {
       "item": "avaritia:record_fragment"
     },
-    {
-      "item": "avaritia:iron_singularity"
+    "F": {
+      "item": "mekanism:block_steel"
     },
-    {
-      "item": "avaritia:lapis_singularity"
+    "G": {
+      "item": "avaritia:neutronium_nugget"
     },
-    {
-      "item": "avaritia:redstone_singularity"
+    "H": {
+      "item": "silentgear:azure_electrum_block"
     },
-    {
-      "item": "avaritia:quartz_singularity"
+    "I": {
+      "item": "silentgear:crimson_steel_block"
     },
-    {
-      "item": "avaritia:diamond_singularity"
-    },
-    {
-      "item": "avaritia:emerald_singularity"
-    },
-    {
-      "item": "avaritia:amethyst_singularity"
-    },
-    {
-      "item": "avaritia:netherite_singularity"
-    },
-    {
-      "item": "avaritia:copper_singularity"
-    },
-    {
-      "item": "avaritia:tin_singularity"
-    },
-    {
-      "item": "avaritia:lead_singularity"
-    },
-    {
-      "tag": "forge:storage_blocks/steel"
-    },
-    {
-      "tag": "forge:storage_blocks/pig_iron"
-    },
-    {
-      "tag": "forge:storage_blocks/queens_slime"
-    },
-    {
-      "tag": "forge:storage_blocks/manyullyn"
-    },
-    {
+    "J": {
       "item": "powah:nitro_crystal_block"
     },
-    {
+    "K": {
+      "item": "avaritia:neutronium_ingot"
+    },
+    "L": {
+      "item": "silentgear:tyrian_steel_block"
+    },
+    "M": {
       "item": "mysticalagradditions:insanium_block"
     },
-    {
-      "item": "mysticalagriculture:supremium_ingot_block"
+    "N": {
+      "item": "mysticalagriculture:awakened_supremium_ingot_block"
+    },
+    "O": {
+      "item": "extendedcrafting:ultimate_singularity"
     }
-  ]
+  },
+  "result": {
+    "item": "avaritia:infinity_catalyst"
+  }
 }

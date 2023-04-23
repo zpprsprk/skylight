@@ -1,0 +1,174 @@
+{
+	id: "3E3CF7E102B00E1E"
+	group: ""
+	order_index: 5
+	filename: "avaritia"
+	title: "Avaritia"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.0d
+			y: -3.0d
+			dependencies: ["189C0F93C8AA65D6"]
+			id: "31E7DC6563E28603"
+			tasks: [{
+				id: "1FDAE66676556B1E"
+				type: "item"
+				item: "avaritia:infinity_catalyst"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -5.0d
+			id: "45631C6366F3703B"
+			tasks: [{
+				id: "34F8E35DF4E772C2"
+				type: "item"
+				item: "avaritia:neutron_collector"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			dependencies: ["45631C6366F3703B"]
+			id: "189C0F93C8AA65D6"
+			tasks: [{
+				id: "5C51E43F866BE71D"
+				type: "item"
+				item: "avaritia:neutronium_ingot"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			dependencies: ["31E7DC6563E28603"]
+			id: "3DFB73220F14BDA5"
+			tasks: [{
+				id: "2A3C8B2BA561AA9D"
+				type: "item"
+				item: "avaritia:infinity_ingot"
+			}]
+		}
+		{
+			title: "Infinity Armor \\& Tools"
+			x: 1.0d
+			y: -1.0d
+			dependencies: ["3DFB73220F14BDA5"]
+			id: "4FEED3DE3333A7A5"
+			tasks: [
+				{
+					id: "65B990B7E10113E4"
+					type: "item"
+					item: {
+						id: "avaritia:infinity_armor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3FE7166CFF3C04EA"
+					type: "item"
+					item: {
+						id: "avaritia:infinity_armor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4D448187CF8FDC9A"
+					type: "item"
+					item: {
+						id: "avaritia:infinity_armor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "08E193CBDDA17A9C"
+					type: "item"
+					item: {
+						id: "avaritia:infinity_armor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5CCBF9B16C110939"
+					type: "item"
+					item: {
+						id: "avaritia:swordofthe_cosmos"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3655E0ACD52CDA9B"
+					type: "item"
+					item: {
+						id: "avaritia:planet_eater"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "216C0277DF6A95F1"
+					type: "item"
+					item: {
+						id: "avaritia:natures_ruin"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "329123296CE50B9E"
+					type: "item"
+					item: {
+						id: "avaritia:hoeofthe_green_earth"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "421015AD12D60A08"
+					type: "item"
+					item: {
+						id: "avaritia:world_breaker"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "79D3009A58889E7C"
+					type: "item"
+					item: {
+						id: "avaritia:longbowofthe_heavens"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

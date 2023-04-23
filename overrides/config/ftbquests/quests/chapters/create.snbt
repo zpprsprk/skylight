@@ -1,0 +1,128 @@
+{
+	id: "616973AD146E2B14"
+	group: ""
+	order_index: 1
+	filename: "create"
+	title: "Create"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.5d
+			y: -3.0d
+			id: "2B0B87C9DB57A159"
+			tasks: [{
+				id: "527ADB66033D2B20"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.0d
+			dependencies: ["2B0B87C9DB57A159"]
+			id: "2A50606E5D9EA61C"
+			tasks: [{
+				id: "7E5E90BEA9358471"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.0d
+			dependencies: ["2B0B87C9DB57A159"]
+			id: "1C414AA62A5690F5"
+			tasks: [
+				{
+					id: "235A862A8A4E4B38"
+					type: "item"
+					item: "create:windmill_bearing"
+				}
+				{
+					id: "014FC7D066962A4A"
+					type: "item"
+					item: "create:sail_frame"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -2.0d
+			dependencies: ["2B0B87C9DB57A159"]
+			id: "43B873C76D292CF8"
+			tasks: [{
+				id: "308459893E0F7759"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.0d
+			dependencies: ["2B0B87C9DB57A159"]
+			id: "08D4A162916CBC2A"
+			tasks: [{
+				id: "592F58D4A074BC7F"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.0d
+			dependencies: ["2B0B87C9DB57A159"]
+			id: "7032C99B41488CE5"
+			tasks: [{
+				id: "6F09117C8CC34B5E"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			dependencies: ["2B0B87C9DB57A159"]
+			id: "14F33D3099439C08"
+			tasks: [{
+				id: "3508421B478A1978"
+				type: "item"
+				item: "create:deployer"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			dependencies: ["2B0B87C9DB57A159"]
+			id: "21F6FBBA2B7B8D5A"
+			tasks: [{
+				id: "55F4E0438AC6C1BC"
+				type: "item"
+				item: "create:mechanical_crafter"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			dependencies: ["2B0B87C9DB57A159"]
+			id: "2F54D21F70441222"
+			tasks: [{
+				id: "1580911ABF734407"
+				type: "item"
+				item: "create:crushing_wheel"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			dependencies: ["2B0B87C9DB57A159"]
+			id: "52C2440547C0C537"
+			tasks: [{
+				id: "5E5B57FA4008EAD2"
+				type: "item"
+				item: "create:spout"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

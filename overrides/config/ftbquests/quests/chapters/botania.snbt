@@ -1,0 +1,139 @@
+{
+	id: "720B259425C54CDF"
+	group: ""
+	order_index: 2
+	filename: "botania"
+	title: "Botania"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.5d
+			y: -5.0d
+			id: "1D6A3CE55A1509D8"
+			tasks: [{
+				id: "21E0F71BA11EB295"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -4.0d
+			dependencies: ["1D6A3CE55A1509D8"]
+			id: "267CA711DDA7BA9E"
+			tasks: [{
+				id: "7C7474430C888C12"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["267CA711DDA7BA9E"]
+			id: "14DA4EE5584421F7"
+			tasks: [{
+				id: "4278BC4C3E550C6F"
+				type: "item"
+				title: "Any #botania:livingwood_logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "botania:livingwood_logs"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			dependencies: ["267CA711DDA7BA9E"]
+			id: "2FE463C61201A5B7"
+			tasks: [{
+				id: "166D6C845F72D57B"
+				type: "item"
+				item: "botania:livingrock"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			dependencies: [
+				"2FE463C61201A5B7"
+				"14DA4EE5584421F7"
+			]
+			id: "3F812A71D7F62C07"
+			tasks: [
+				{
+					id: "50057F03A362D104"
+					type: "item"
+					item: "botania:mana_pool"
+				}
+				{
+					id: "73AA495DA0B0B08E"
+					type: "item"
+					item: "botania:mana_spreader"
+				}
+				{
+					id: "0F28BB1F8506B036"
+					type: "item"
+					item: {
+						id: "botania:twig_wand"
+						Count: 1b
+						tag: {
+							color1: 0
+							color2: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -1.0d
+			dependencies: ["3F812A71D7F62C07"]
+			id: "0DB38B1808490DCE"
+			tasks: [{
+				id: "3555A727851396AC"
+				type: "item"
+				item: "botania:runic_altar"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			dependencies: ["0DB38B1808490DCE"]
+			id: "6243B7163A6F8A9D"
+			tasks: [{
+				id: "4213FF5B18DB278B"
+				type: "item"
+				item: "botania:terra_plate"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			dependencies: ["6243B7163A6F8A9D"]
+			id: "30BE28ED2EAFEC4A"
+			tasks: [{
+				id: "32DD96A61A99DA2E"
+				type: "item"
+				item: "botania:alfheim_portal"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			dependencies: ["30BE28ED2EAFEC4A"]
+			id: "1C661353F2DCB3DB"
+			tasks: [{
+				id: "1E8D4BEC522E8D61"
+				type: "item"
+				item: "botania:life_essence"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

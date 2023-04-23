@@ -10,6 +10,26 @@
         {
             "chance": 0.25,
             "mesh": "string"
+        },
+        {
+            "chance": 0.3,
+            "mesh": "flint"
+        },
+        {
+            "chance": 0.35,
+            "mesh": "iron"
+        },
+        {
+            "chance": 0.4,
+            "mesh": "diamond"
+        },
+        {
+            "chance": 0.45,
+            "mesh": "emerald"
+        },
+        {
+            "chance": 0.5,
+            "mesh": "netherite"
         }
     ]
 }

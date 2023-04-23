@@ -1,0 +1,88 @@
+{
+	id: "1C1EE5D81AA5D5CD"
+	group: ""
+	order_index: 4
+	filename: "extended_crafting"
+	title: "Extended Crafting"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.0d
+			y: -6.0d
+			id: "52B08B0B3133EDBC"
+			tasks: [{
+				id: "7394D90385EC3778"
+				type: "item"
+				item: "extendedcrafting:black_iron_ingot"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -5.0d
+			dependencies: ["52B08B0B3133EDBC"]
+			id: "2F927125BFAC2C93"
+			tasks: [{
+				id: "0FD4FC6418EBC28F"
+				type: "item"
+				item: "extendedcrafting:basic_table"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -4.0d
+			dependencies: ["2F927125BFAC2C93"]
+			id: "24B341F3F5361DD3"
+			tasks: [{
+				id: "35377E3E95156C3A"
+				type: "item"
+				item: "extendedcrafting:advanced_table"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.0d
+			dependencies: ["24B341F3F5361DD3"]
+			id: "31DAB66CB0F6E225"
+			tasks: [{
+				id: "3199AB375610B4EB"
+				type: "item"
+				item: "extendedcrafting:elite_table"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			dependencies: ["31DAB66CB0F6E225"]
+			id: "7909BE7C22391897"
+			tasks: [{
+				id: "1F846036D8443A13"
+				type: "item"
+				item: "extendedcrafting:ultimate_table"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -5.0d
+			dependencies: ["52B08B0B3133EDBC"]
+			id: "728115E7F227FD6C"
+			tasks: [{
+				id: "02B04ECE5F2A2402"
+				type: "item"
+				item: "extendedcrafting:compressor"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.0d
+			dependencies: ["728115E7F227FD6C"]
+			id: "3374D60B1A985414"
+			tasks: [{
+				id: "7D3148818E204F87"
+				type: "item"
+				item: "extendedcrafting:ultimate_singularity"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

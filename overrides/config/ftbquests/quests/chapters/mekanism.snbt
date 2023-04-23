@@ -1,0 +1,179 @@
+{
+	id: "1608BE27F0CB5EB2"
+	group: ""
+	order_index: 3
+	filename: "mekanism"
+	title: "Mekanism"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.5d
+			y: -6.0d
+			dependencies: ["67502FF44066359A"]
+			id: "238C1E3C6D6101EA"
+			tasks: [{
+				id: "3B01CB605F696E58"
+				type: "item"
+				item: "mekanism:alloy_infused"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -7.0d
+			id: "67502FF44066359A"
+			tasks: [{
+				id: "52EABE8C818C71C7"
+				type: "item"
+				item: "mekanism:metallurgic_infuser"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -6.0d
+			dependencies: ["67502FF44066359A"]
+			id: "0B023A6833D740CE"
+			tasks: [{
+				id: "2DBFB1DDABD78695"
+				type: "item"
+				item: "mekanism:steel_casing"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.0d
+			dependencies: ["238C1E3C6D6101EA"]
+			id: "41F7A77D2869C66B"
+			tasks: [{
+				id: "050BC28C0A076878"
+				type: "item"
+				item: "mekanism:alloy_reinforced"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.0d
+			dependencies: ["41F7A77D2869C66B"]
+			id: "7DC3EE8E0608B916"
+			tasks: [{
+				id: "5BBC6157A918FBF6"
+				type: "item"
+				item: "mekanism:alloy_atomic"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.0d
+			dependencies: ["3F3FA5F96C474545"]
+			id: "74F91DEE5E11D452"
+			tasks: [{
+				id: "5294D7E457D6F15B"
+				type: "item"
+				item: "mekanism:hdpe_pellet"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -5.0d
+			dependencies: ["0B023A6833D740CE"]
+			id: "77D6711899F80567"
+			tasks: [{
+				id: "6D781D588B727375"
+				type: "item"
+				item: "mekanism:bio_fuel"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.0d
+			dependencies: ["77D6711899F80567"]
+			id: "3F3FA5F96C474545"
+			tasks: [{
+				id: "3A4DFFD7A770F18D"
+				type: "item"
+				item: "mekanism:substrate"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -6.0d
+			dependencies: ["67502FF44066359A"]
+			id: "4A403ACB92BF55AA"
+			tasks: [{
+				id: "3B06D0F1811CC4C9"
+				type: "item"
+				item: "mekanism:thermal_evaporation_controller"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -5.0d
+			dependencies: ["4A403ACB92BF55AA"]
+			id: "09797037475C458E"
+			tasks: [{
+				id: "5CC8E55DD09047D2"
+				type: "item"
+				item: "mekanism:dust_lithium"
+			}]
+		}
+		{
+			title: "Induction"
+			x: 0.5d
+			y: -4.0d
+			dependencies: ["09797037475C458E"]
+			id: "17EF52DDEB57BB2C"
+			tasks: [
+				{
+					id: "6349DBE51C6844B5"
+					type: "item"
+					item: "mekanism:basic_induction_cell"
+				}
+				{
+					id: "1448585DE68A5E78"
+					type: "item"
+					item: "mekanism:basic_induction_provider"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -1.0d
+			dependencies: ["531A1F0CFAB573F4"]
+			id: "36FF205F896B22F2"
+			tasks: [
+				{
+					id: "4DB2A2A1C688B0BE"
+					type: "item"
+					item: "mekanism:mekasuit_helmet"
+				}
+				{
+					id: "2A01A699D171AF9D"
+					type: "item"
+					item: "mekanism:mekasuit_bodyarmor"
+				}
+				{
+					id: "0AAF2459C273C13E"
+					type: "item"
+					item: "mekanism:mekasuit_pants"
+				}
+				{
+					id: "64F73B812E5ABB33"
+					type: "item"
+					item: "mekanism:mekasuit_boots"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -2.0d
+			dependencies: ["74F91DEE5E11D452"]
+			id: "531A1F0CFAB573F4"
+			tasks: [{
+				id: "739A65644C838A24"
+				type: "item"
+				item: "mekanism:pellet_polonium"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

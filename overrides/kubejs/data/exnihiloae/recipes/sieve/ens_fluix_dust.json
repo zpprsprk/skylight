@@ -1,0 +1,23 @@
+{
+  "type": "exnihilosequentia:sieve",
+  "input": {
+    "item": "exnihilosequentia:dust"
+  },
+  "result": {
+    "item": "ae2:fluix_dust"
+  },
+  "rolls": [
+    {
+      "chance": 0.03,
+      "mesh": "diamond"
+    },
+    {
+      "chance": 0.06,
+      "mesh": "emerald"
+    },
+    {
+      "chance": 0.09,
+      "mesh": "netherite"
+    }
+  ]
+}

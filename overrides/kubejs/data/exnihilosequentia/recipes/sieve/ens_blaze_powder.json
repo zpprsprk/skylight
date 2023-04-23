@@ -1,0 +1,27 @@
+{
+  "type": "exnihilosequentia:sieve",
+  "input": {
+    "item": "exnihilosequentia:dust"
+  },
+  "result": {
+    "item": "minecraft:blaze_powder"
+  },
+  "rolls": [
+    {
+      "chance": 0.05,
+      "mesh": "iron"
+    },
+    {
+      "chance": 0.08,
+      "mesh": "diamond"
+    },
+    {
+      "chance": 0.12,
+      "mesh": "emerald"
+    },
+    {
+      "chance": 0.18,
+      "mesh": "netherite"
+    }
+  ]
+}

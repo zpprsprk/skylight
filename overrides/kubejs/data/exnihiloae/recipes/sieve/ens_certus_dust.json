@@ -1,0 +1,27 @@
+{
+  "type": "exnihilosequentia:sieve",
+  "input": {
+    "item": "exnihilosequentia:dust"
+  },
+  "result": {
+    "item": "ae2:certus_quartz_dust"
+  },
+  "rolls": [
+    {
+      "chance": 0.15,
+      "mesh": "iron"
+    },
+    {
+      "chance": 0.18,
+      "mesh": "diamond"
+    },
+    {
+      "chance": 0.2,
+      "mesh": "emerald"
+    },
+    {
+      "chance": 0.25,
+      "mesh": "netherite"
+    }
+  ]
+}
