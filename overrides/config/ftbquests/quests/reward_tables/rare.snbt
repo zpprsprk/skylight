@@ -1,0 +1,27 @@
+{
+	id: "7F4A17B868A8181D"
+	order_index: 2
+	title: "Rare"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:netherite_scrap", count: 16 }
+		{
+			item: {
+				id: "sophisticatedstorage:netherite_chest"
+				Count: 1b
+				tag: {
+					woodType: "oak"
+				}
+			}
+		}
+		{
+			item: {
+				id: "sophisticatedstorage:netherite_barrel"
+				Count: 1b
+				tag: {
+					woodType: "oak"
+				}
+			}
+		}
+	]
+}

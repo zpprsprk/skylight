@@ -16,6 +16,12 @@
 				type: "item"
 				item: "extendedcrafting:black_iron_ingot"
 			}]
+			rewards: [{
+				id: "06CB56A112CD59F2"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 5998338126649523128L
+			}]
 		}
 		{
 			x: 0.5d
@@ -26,6 +32,12 @@
 				id: "0FD4FC6418EBC28F"
 				type: "item"
 				item: "extendedcrafting:basic_table"
+			}]
+			rewards: [{
+				id: "177C94BA853766FF"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1074603461866598639L
 			}]
 		}
 		{
@@ -38,6 +50,12 @@
 				type: "item"
 				item: "extendedcrafting:advanced_table"
 			}]
+			rewards: [{
+				id: "08B276420219D211"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1074603461866598639L
+			}]
 		}
 		{
 			x: 0.5d
@@ -48,6 +66,12 @@
 				id: "3199AB375610B4EB"
 				type: "item"
 				item: "extendedcrafting:elite_table"
+			}]
+			rewards: [{
+				id: "794AF8E9D59C30A3"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 9172169671890704413L
 			}]
 		}
 		{
@@ -60,6 +84,12 @@
 				type: "item"
 				item: "extendedcrafting:ultimate_table"
 			}]
+			rewards: [{
+				id: "68200E09F52BADE7"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 9172169671890704413L
+			}]
 		}
 		{
 			x: 1.5d
@@ -71,6 +101,12 @@
 				type: "item"
 				item: "extendedcrafting:compressor"
 			}]
+			rewards: [{
+				id: "7BC44CAE44B59D6F"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1074603461866598639L
+			}]
 		}
 		{
 			x: 1.5d
@@ -81,6 +117,12 @@
 				id: "7D3148818E204F87"
 				type: "item"
 				item: "extendedcrafting:ultimate_singularity"
+			}]
+			rewards: [{
+				id: "6D22EE7C12240508"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3675590367777942626L
 			}]
 		}
 	]

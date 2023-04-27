@@ -1,0 +1,7 @@
+{
+	id: "330251F723406C62"
+	order_index: 3
+	title: "Epic"
+	loot_size: 1
+	rewards: [{ item: "botania:life_essence", count: 4 }]
+}

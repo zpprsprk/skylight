@@ -17,6 +17,12 @@
 				type: "item"
 				item: "create:creative_motor"
 			}]
+			rewards: [{
+				id: "245B678C258E3F58"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2498518435522323692L
+			}]
 		}
 		{
 			x: 0.5d
@@ -27,6 +33,12 @@
 				id: "4B5D2F4F57961FD6"
 				type: "item"
 				item: "mekanism:creative_chemical_tank"
+			}]
+			rewards: [{
+				id: "3C31081E7AFE6CDA"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2498518435522323692L
 			}]
 		}
 		{
@@ -39,6 +51,12 @@
 				type: "item"
 				item: "mekanism:creative_fluid_tank"
 			}]
+			rewards: [{
+				id: "685035D4A05E5F30"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2498518435522323692L
+			}]
 		}
 		{
 			x: 0.5d
@@ -49,6 +67,12 @@
 				id: "4E1AFAED6F432B74"
 				type: "item"
 				item: "bigreactors:reinforced_reactorcreativewatergenerator"
+			}]
+			rewards: [{
+				id: "5AB4897F7049BB96"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2498518435522323692L
 			}]
 		}
 		{
@@ -61,6 +85,12 @@
 				type: "item"
 				item: "bigreactors:reinforced_turbinecreativesteamgenerator"
 			}]
+			rewards: [{
+				id: "172EF038F85E69E6"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2498518435522323692L
+			}]
 		}
 		{
 			x: 1.0d
@@ -72,6 +102,12 @@
 				type: "item"
 				item: "rftoolspower:dimensionalcell_creative"
 			}]
+			rewards: [{
+				id: "31AF01AEDE2289F2"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2498518435522323692L
+			}]
 		}
 		{
 			x: 1.0d
@@ -82,6 +118,12 @@
 				id: "395E1D6B046D9435"
 				type: "item"
 				item: "cyclic:battery_infinite"
+			}]
+			rewards: [{
+				id: "7C00551EB20DBAD6"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2498518435522323692L
 			}]
 		}
 		{
@@ -115,6 +157,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0864ABE62A1E67EC"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2498518435522323692L
+			}]
 		}
 		{
 			x: 1.0d
@@ -126,6 +174,12 @@
 				type: "item"
 				item: "powah:energy_cell_creative"
 			}]
+			rewards: [{
+				id: "27E135BF0E14D7A8"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2498518435522323692L
+			}]
 		}
 		{
 			x: 1.0d
@@ -136,6 +190,12 @@
 				id: "4A82C151DC846A45"
 				type: "item"
 				item: "storagedrawers:creative_vending_upgrade"
+			}]
+			rewards: [{
+				id: "12FD4601DA569A52"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2498518435522323692L
 			}]
 		}
 		{
@@ -155,6 +215,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3DEA5ECA769E2C9F"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2498518435522323692L
+			}]
 		}
 		{
 			x: 1.5d
@@ -165,6 +231,12 @@
 				id: "190CAB4237EB747C"
 				type: "item"
 				item: "botania:creative_pool"
+			}]
+			rewards: [{
+				id: "2892836DF8D20143"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2498518435522323692L
 			}]
 		}
 		{
@@ -180,6 +252,12 @@
 				type: "item"
 				item: "ae2:creative_energy_cell"
 			}]
+			rewards: [{
+				id: "2A2A371C2C2EB0DF"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2498518435522323692L
+			}]
 		}
 		{
 			x: 1.0d
@@ -189,6 +267,12 @@
 				id: "5109A2AF01A5CCFB"
 				type: "item"
 				item: "mysticalagradditions:creative_essence"
+			}]
+			rewards: [{
+				id: "64762453DDE82DDC"
+				type: "item"
+				item: "mysticalagradditions:creative_essence"
+				count: 8
 			}]
 		}
 	]

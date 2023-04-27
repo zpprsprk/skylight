@@ -30,6 +30,12 @@
 	"Enable Network Profiling" = false
 	#Used for terrablender integration
 	"Terrablender Region Weight" = 1
+	#Set to false to stop quark from adding its own items to multi-requirement vanilla advancements
+	"Enable Advancement Modification" = true
+	#Set to false to stop quark from adding its own advancements
+	"Enable Quark Advancements" = true
+	#Set to false to disable the popup message telling you that you can config quark in the q menu
+	"Enable Onboarding" = true
 
 [categories]
 	Automation = true
@@ -67,6 +73,9 @@
 		"Enable Iron" = true
 		"Enable Gold" = true
 
+	[automation.iron_rod]
+		"Use Pre End Recipe" = false
+
 	[automation.feeding_trough]
 		#How long, in game ticks, between animals being able to eat from the trough
 		#Allowed values: [1,)
@@ -102,11 +111,13 @@
 	"Nether Brick Fence Gate" = true
 	"More Stone Variants" = true
 	"More Potted Plants" = true
+	"More Mud Blocks" = true
 	"More Brick Types" = true
 	Midori = true
 	"Leaf Carpet" = true
 	"Japanese Palette" = true
 	"Industrial Palette" = true
+	"Hollow Logs" = true
 	Hedges = true
 	Grate = true
 	"Gold Bars" = true
@@ -115,6 +126,11 @@
 	"Duskbound Blocks" = true
 	"Compressed Blocks" = true
 	"Celebratory Lamps" = true
+	"Bamboo Backport" = true
+
+	[building.vertical_slabs]
+		#Should Walls and Panes attempt to connect to the side of Vertical Slabs?
+		"Allow Side Connections" = true
 
 	[building.vertical_planks]
 		#This feature disables itself if any of the following mods are loaded: 
@@ -151,6 +167,12 @@
 		"Change Names" = true
 
 	[building.thatch]
+		#This feature disables itself if any of the following mods are loaded: 
+		# - goated
+		# - environmental
+		#This is done to prevent content overlap.
+		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
+		"Ignore Anti Overlap" = false
 		#Allowed values: [0,1]
 		"Fall Damage Multiplier" = 0.5
 
@@ -182,6 +204,7 @@
 	[building.leaf_carpet]
 		#This feature disables itself if any of the following mods are loaded: 
 		# - woodworks
+		# - immersive_weathering
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -193,6 +216,9 @@
 	[building.industrial_palette]
 		"Enable Iron Plates" = true
 		"Enable Iron Ladder" = true
+
+	[building.hollow_logs]
+		"Enable Auto Crawl" = true
 
 	[building.gold_bars]
 		"Generate In Nether Fortress" = true
@@ -211,7 +237,7 @@
 		#Allowed values: [0,)
 		"Stick Block Fuel Time" = 900
 		#Allowed values: [0,)
-		"Bamboo Bundle Fuel Time" = 500
+		"Bamboo Block Fuel Time" = 500
 		"Enable Charcoal Block" = true
 		"Enable Sugar Cane Block" = true
 		"Enable Bamboo Block" = true
@@ -222,6 +248,7 @@
 		"Enable Golden Apple Crate" = true
 		"Enable Potato Crate" = true
 		"Enable Carrot Crate" = true
+		"Enable Golden Carrot Crate" = true
 		"Enable Beetroot Crate" = true
 		"Enable Cocoa Bean Sack" = true
 		"Enable Nether Wart Sack" = true
@@ -242,6 +269,7 @@
 	"Hotbar Changer" = true
 	"Expanded Item Interactions" = true
 	"Easy Transfering" = true
+	"Automatic Tool Restock" = true
 
 	[management.quick_armor_swapping]
 		"Swap Off Hand" = true
@@ -265,16 +293,33 @@
 	[management.easy_transfering]
 		"Enable Shift Lock" = true
 
+	[management.automatic_tool_restock]
+		#This feature disables itself if any of the following mods are loaded: 
+		# - inventorytweaks
+		#This is done to prevent content overlap.
+		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
+		"Ignore Anti Overlap" = false
+		#Enchantments deemed important enough to have special priority when finding a replacement
+		"Important Enchantments" = ["minecraft:silk_touch", "minecraft:fortune", "minecraft:infinity", "minecraft:luck_of_the_sea", "minecraft:looting"]
+		#Enable replacing your tools with tools of the same type but not the same item
+		"Enable Loose Matching" = true
+		#Enable comparing enchantments to find a replacement
+		"Enable Enchant Matching" = true
+		#Allow pulling items from one hotbar slot to another
+		"Check Hotbar" = false
+		"Unstackables Only" = false
+
 [tools]
 	Trowel = true
+	"Torch Arrow" = true
 	"Slime In A Bucket" = true
+	"Skull Pikes" = true
 	"Seed Pouch" = true
 	Pickarang = true
 	"Pathfinder Maps" = true
 	"Parrot Eggs" = true
 	"Endermosh Music Disc" = true
 	"Color Runes" = true
-	Camera = true
 	"Bundle Recipe" = true
 	"Bottled Cloud" = true
 	"Beacon Redirection" = true
@@ -287,6 +332,12 @@
 		#Set to 0 to make the Trowel unbreakable
 		#Allowed values: [0,)
 		"Trowel Max Durability" = 0
+
+	[tools.torch_arrow]
+		"Extinguish On Miss" = false
+
+	[tools.skull_pikes]
+		"Pike Range" = 5.0
 
 	[tools.seed_pouch]
 		"Max Items" = 640
@@ -385,6 +436,10 @@
 		"Cloud Level Bottom" = 191
 		"Cloud Level Top" = 196
 
+	[tools.beacon_redirection]
+		"Horizontal Move Limit" = 64
+		"Allow Tinted Glass Transparency" = true
+
 	[tools.ancient_tomes]
 		#Format is lootTable,weight. i.e. "minecraft:chests/stronghold_library,30"
 		"Loot Tables" = ["minecraft:chests/stronghold_library,30", "minecraft:chests/simple_dungeon,20", "minecraft:chests/bastion_treasure,25", "minecraft:chests/woodland_mansion,15", "minecraft:chests/nether_bridge,0", "minecraft:chests/underwater_ruin_big,0", "minecraft:chests/underwater_ruin_small,0", "minecraft:chests/ancient_city,4", "quark:misc/monster_box,5"]
@@ -393,11 +448,19 @@
 		"Limit Break Upgrade Cost" = 30
 		"Valid Enchantments" = ["minecraft:feather_falling", "minecraft:thorns", "minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:knockback", "minecraft:fire_aspect", "minecraft:looting", "minecraft:sweeping", "minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune", "minecraft:power", "minecraft:punch", "minecraft:luck_of_the_sea", "minecraft:lure", "minecraft:loyalty", "minecraft:riptide", "minecraft:impaling", "minecraft:piercing"]
 		"Overleveled Books Glow Rainbow" = true
+		#When enabled, Efficiency VI Diamond and Netherite pickaxes can instamine Deepslate when under Haste 2
+		"Deepslate Tweak" = true
+		"Deepslate Tweak Needs Haste2" = true
 		#Master Librarians will offer to exchange Ancient Tomes, provided you give them a max-level Enchanted Book of the Tome's enchantment too.
 		"Librarians Exchange Ancient Tomes" = true
+		#Applying a tome will also randomly curse your item
+		"Curse Gear" = false
+		#Allows combining tomes with normal books
+		"Combine With Books" = true
 
 	[tools.ambient_discs]
 		"Drop On Spider Kill" = true
+		Volume = 3.0
 
 	[tools.abacus]
 
@@ -407,41 +470,44 @@
 			G = 0.0
 			B = 0.0
 
-	[tools.beacon_redirection]
-		"Horizontal Move Limit" = 64
-
 [tweaks]
 	"Zombie Villagers On Normal" = true
 	"Villagers Follow Emeralds" = true
 	"Vexes Die With Their Masters" = true
 	"Utility Recipes" = true
+	"Sponge On Water Placement" = true
 	"Snow Golem Player Heads" = true
+	"Slabs To Blocks" = true
 	"Simple Harvest" = true
 	"Sign Editing" = true
 	"Shulker Packing" = true
-	"Safe Rabbits" = true
+	"Safer Creatures" = true
 	"Replace Scaffolding" = true
 	"Renewable Spore Blossoms" = true
 	"Reacharound Placing" = true
 	"Poison Potato Usage" = true
 	"Pig Litters" = true
 	"Pat The Dogs" = true
+	"No Durability On Cosmetics" = true
 	"More Note Block Sounds" = true
 	"More Banner Layers" = true
 	"Lock Rotation" = true
+	"Horses Swim" = true
 	"Hoe Harvesting" = true
 	"Grab Chickens" = true
+	"Gold Tools Have Fortune" = true
 	"Glass Shard" = true
 	"Enhanced Ladders" = true
 	Emotes = true
+	"Dyeable Item Frames" = true
 	"Dragon Scales" = true
 	"Double Door Opening" = true
+	"Coral On Cactus" = true
 	"Compasses Work Everywhere" = true
 	"Campfires Boost Elytra" = true
 	"Better Elytra Rocket" = true
 	"Automatic Recipe Unlock" = true
 	"Armed Armor Stands" = true
-	"Skull Pikes" = true
 
 	[tweaks.utility_recipes]
 		#Can any wool color be dyed?
@@ -454,6 +520,8 @@
 		"Enable Repeater" = true
 		#Can you craft a minecart around blocks which can be placed inside?
 		"Enable Minecarts" = true
+		#Can you craft a boat around a chest to directly make a chest boat?
+		"Enable Chest Boats" = true
 		#Can you craft four chests at once using logs?
 		"Logs To Chests" = true
 		#Can Coral be crafted into dye?
@@ -474,6 +542,8 @@
 		"Easy Hopper" = true
 		#Can two Logs be used to craft 16 sticks?
 		"Easy Sticks" = true
+		#Can raw ore blocks be smelted, taking 9x the time a normal item?
+		"Smelt Raw Ore Blocks" = true
 
 	[tweaks.simple_harvest]
 		#Can players harvest crops with empty hand clicks?
@@ -492,9 +562,10 @@
 	[tweaks.sign_editing]
 		"Requires Empty Hand" = false
 
-	[tweaks.safe_rabbits]
+	[tweaks.safer_creatures]
 		#How many blocks should be subtracted from the rabbit fall height when calculating fall damage. 5 is the same value as vanilla frogs
 		"Height Reduction" = 5.0
+		"Enable Slime Fall Damage Removal" = true
 
 	[tweaks.replace_scaffolding]
 		#How many times the algorithm for finding out where a block would be placed is allowed to turn. If you set this to large values (> 3) it may start producing weird effects.
@@ -539,6 +610,10 @@
 		#If `petAllMobs` is set, these mobs still can't be pet
 		"Pettable Denylist" = ["minecraft:ender_dragon", "minecraft:wither", "minecraft:armor_stand"]
 
+	[tweaks.no_durability_on_cosmetics]
+		#Allow applying cosmetic items such as color runes with no anvil durability usage? Cosmetic items are defined in the quark:cosmetic_anvil_items tag
+		"Allow Cosmetic Items" = true
+
 	[tweaks.more_note_block_sounds]
 		"Enable Skull Sounds" = true
 		"Enable Amethyst Sound" = true
@@ -551,6 +626,12 @@
 		"Needs No Helmet" = true
 		#Set to 0 to disable
 		"Slowness Level" = 1
+
+	[tweaks.gold_tools_have_fortune]
+		#Allowed values: [0,)
+		"Fortune Level" = 2
+		#Allowed values: [0,4]
+		"Harvest Level" = 2
 
 	[tweaks.enhanced_ladders]
 		#Allowed values: (,0]
@@ -569,6 +650,17 @@
 		#Enable this to make custom emotes read the file every time they're triggered so you can edit on the fly.
 		#DO NOT ship enabled this in a modpack, please.
 		"Custom Emote Debug" = false
+		"Button Shift X" = 0
+		"Button Shift Y" = 0
+
+	[tweaks.double_door_opening]
+		#This feature disables itself if any of the following mods are loaded: 
+		# - utilitix
+		#This is done to prevent content overlap.
+		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
+		"Ignore Anti Overlap" = false
+		"Enable Doors" = true
+		"Enable Fence Gates" = true
 
 	[tweaks.compasses_work_everywhere]
 		"Enable Compass Nerf" = true
@@ -588,9 +680,6 @@
 		#If enabled, advancements granting recipes will be stopped from loading, potentially reducing the lagspike on first world join.
 		"Filter Recipe Advancements" = true
 
-	[tweaks.skull_pikes]
-		"Pike Range" = 5.0
-
 [world]
 	"Spiral Spires" = true
 	Permafrost = true
@@ -605,11 +694,13 @@
 	"Blossom Trees" = true
 	"Big Stone Clusters" = true
 	"Azalea Wood" = true
+	"Ancient Wood" = true
 
 	[world.spiral_spires]
 		Rarity = 200
 		Radius = 15
-		#Set to 0 to turn off Myalite Conduits
+		"Enable Myalite Viaducts" = true
+		#Allowed values: [2,1,024]
 		"Myalite Conduit Distance" = 24
 		"Renewable Myalite" = true
 
@@ -805,6 +896,14 @@
 		[world.monster_box.dimensions]
 			"Is Blacklist" = false
 			Dimensions = ["minecraft:overworld"]
+
+	[world.glimmering_weald]
+		#Experimental, dont change if you dont know what you are doing. Depth min value from which biome will spawn. Decreasing will make biome appear more often
+		#Allowed values: [-2,2]
+		"Min Depth Range" = 1.5499999523162842
+		#Experimental, dont change if you dont know what you are doing. Depth max value until which biome will spawn. Increasing will make biome appear more often
+		#Allowed values: [-2,2]
+		"Max Weirdness Range" = 2.0
 
 	[world.fairy_rings]
 		"Forest Chance" = 0.00625
@@ -1137,6 +1236,16 @@
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
 
+	[world.ancient_wood]
+		"Ancient Fruit Gives Exp" = true
+		#Allowed values: [1,)
+		"Ancient Fruit Exp Value" = 10
+		#Set to 0 to disable loot chest generation
+		#Allowed values: [0,)
+		"Ancient City Loot Weight" = 8
+		#Allowed values: [0,)
+		"Ancient City Loot Quality" = 1
+
 [mobs]
 	Wraith = true
 	Toretoise = true
@@ -1177,7 +1286,8 @@
 		"Cooldown Ticks" = 1200
 		#The items that can be fed to toretoises to make them regrow ores.
 		Foods = ["minecraft:glow_berries"]
-		#Feeding a toretoise after cooldown will regrow them with a one-in-this-number chance. Set to 1 to always regrow, or 0 to disable.
+		"Allow Toretoise To Regrow" = true
+		#Feeding a toretoise after cooldown will regrow them with a one-in-this-number chance. Set to 1 to always regrow, higher = lower chance.
 		"Regrow Chance" = 3
 
 		[mobs.toretoise.dimensions]
@@ -1257,6 +1367,7 @@
 	[mobs.foxhound]
 		#The chance coal will tame a foxhound
 		"Tame Chance" = 0.05
+		"Foxhounds Speed Up Furnaces" = true
 
 		[mobs.foxhound.spawn_config]
 			#Allowed values: (0,)
@@ -1303,6 +1414,7 @@
 
 	[mobs.crabs]
 		"Enable Brewing" = true
+		"Enable Resillience Effect" = true
 
 		[mobs.crabs.spawn_config]
 			#Allowed values: (0,)
@@ -1329,13 +1441,14 @@
 	"Usage Ticker" = true
 	"Soul Candles" = true
 	"Microcrafting Helper" = true
+	"Long Range Pick Block" = true
 	"Improved Tooltips" = true
 	"Greener Grass" = true
+	"Elytra Indicator" = true
 	"Chest Searching" = true
+	Camera = true
 	"Back Button Keybind" = true
 	"Auto Walk Keybind" = true
-	"Long Range Pick Block" = true
-	"Elytra Indicator" = true
 
 	[client.variant_animal_textures]
 		"Enable Cow" = true
@@ -1344,6 +1457,7 @@
 		"Enable Shiny Rabbit" = true
 		"Enable Shiny Llama" = true
 		"Enable Shiny Dolphin" = true
+		"Enable Shiny Slime" = true
 		"Enable L G B T Bees" = true
 		"Every Bee Is L G B T" = false
 		#The chance for an animal to have a special "Shiny" skin, like a shiny pokemon. This is 1 in X. Set to 0 to disable.
@@ -1366,7 +1480,7 @@
 
 	[client.improved_tooltips]
 		"Attribute Tooltips" = true
-		"Food Tooltips" = true
+		"Food Tooltips" = false
 		"Shulker Tooltips" = true
 		"Map Tooltips" = true
 		"Enchanting Tooltips" = true
@@ -1379,7 +1493,7 @@
 		"Fuel Time Divisor" = 200
 		#The value of each shank of food. Tweak this when using mods like Hardcore Hunger which change that value.
 		"Food Divisor" = 2
-		"Enchanting Stacks" = ["minecraft:diamond_sword", "minecraft:diamond_pickaxe", "minecraft:diamond_shovel", "minecraft:diamond_axe", "minecraft:diamond_hoe", "minecraft:diamond_helmet", "minecraft:diamond_chestplate", "minecraft:diamond_leggings", "minecraft:diamond_boots", "minecraft:shears", "minecraft:bow", "minecraft:fishing_rod", "minecraft:crossbow", "minecraft:trident", "minecraft:elytra", "minecraft:shield", "quark:pickarang"]
+		"Enchanting Stacks" = ["minecraft:diamond_sword", "minecraft:diamond_pickaxe", "minecraft:diamond_shovel", "minecraft:diamond_axe", "minecraft:diamond_hoe", "minecraft:diamond_helmet", "minecraft:diamond_chestplate", "minecraft:diamond_leggings", "minecraft:diamond_boots", "minecraft:shears", "minecraft:bow", "minecraft:fishing_rod", "minecraft:crossbow", "minecraft:trident", "minecraft:elytra", "minecraft:shield", "quark:pickarang", "supplementaries:slingshot", "supplementaries:bubble_blower", "farmersdelight:diamond_knife"]
 		#A list of additional stacks to display on each enchantment
 		#The format is as follows:
 		#enchant_id=item1,item2,item3...
@@ -1389,9 +1503,9 @@
 
 	[client.greener_grass]
 		"Affect Leaves" = true
+		"Affect Water" = false
 		"Block List" = ["minecraft:large_fern", "minecraft:tall_grass", "minecraft:grass_block", "minecraft:fern", "minecraft:grass", "minecraft:potted_fern", "minecraft:sugar_cane", "environmental:giant_tall_grass", "valhelsia_structures:grass_block"]
 		"Leaves List" = ["minecraft:spruce_leaves", "minecraft:birch_leaves", "minecraft:oak_leaves", "minecraft:jungle_leaves", "minecraft:acacia_leaves", "minecraft:dark_oak_leaves", "atmospheric:rosewood_leaves", "atmospheric:morado_leaves", "atmospheric:yucca_leaves", "autumnity:maple_leaves", "environmental:willow_leaves", "environmental:hanging_willow_leaves", "minecraft:vine"]
-		"Affect Water" = false
 
 		[client.greener_grass.color_matrix]
 			R = [0.89, 0.0, 0.0]
@@ -1417,7 +1531,6 @@
 
 [experimental]
 	"Spawner Replacer" = false
-	Saw = false
 	"Overlay Shader" = false
 	"Narrator Readout" = false
 	"Game Nerfs" = false
@@ -1428,12 +1541,6 @@
 		#Mobs to be replaced with other mobs.
 		#Format is: "mob1,mob2", i.e. "minecraft:spider,minecraft:skeleton"
 		"Replace Mobs" = []
-
-	[experimental.saw]
-
-		[experimental.saw.variants]
-			"Known Suffixes" = ["slab", "stairs", "wall", "fence", "vertical_slab"]
-			"Tested Mods" = ["quark"]
 
 	[experimental.overlay_shader]
 		#Sets the name of the shader to load on a regular basis. This can load any shader the Camera module can (and requires the Camera module enabled to apply said logic).
@@ -1453,6 +1560,9 @@
 		"Disable Ice Roads" = true
 		#Makes Sheep not drop Wool when killed
 		"Disable Wool Drops" = true
+		#Disables mob griefing for only specific entities
+		"Enable Selective Mob Griefing" = true
+		"Non Griefing Entities" = ["minecraft:creeper", "minecraft:enderman"]
 
 	[experimental.enchantments_begone]
 		"Enchantments To Begone" = []
@@ -1534,6 +1644,8 @@
 		"Normalize Rarity" = true
 		#Matrix Enchanting can be done with water instead of air around the enchanting table. Set this to false to disable this behaviour.
 		"Allow Underwater Enchanting" = true
+		#Matrix Enchanting can be done with short (<= 3px blocks) instead of air around the enchanting table. Set this to false to disable this behaviour.
+		"Allow Short Block Enchanting" = true
 		#Candles with soul sand below them or below the bookshelves dampen enchantments instead of influence them.
 		"Soul Candles Invert" = true
 		#A list of enchantment IDs you don't want the enchantment table to be able to create
@@ -1558,6 +1670,7 @@
 		"Magnetic Derivation List" = ["minecraft:iron_ingot", "minecraft:copper_ingot", "minecraft:exposed_copper", "minecraft:weathered_copper", "minecraft:oxidized_copper", "minecraft:raw_iron", "minecraft:raw_copper", "minecraft:iron_ore", "minecraft:deepslate_iron_ore", "minecraft:copper_ore", "minecraft:deepslate_copper_ore"]
 		"Magnetic Whitelist" = ["minecraft:chipped_anvil", "minecraft:damaged_anvil"]
 		"Magnetic Blacklist" = ["minecraft:tripwire_hook"]
+		"Use Pre End Recipe" = false
 
 	[oddities.crate]
 		"Max Items" = 640

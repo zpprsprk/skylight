@@ -17,6 +17,12 @@
 				type: "item"
 				item: "avaritia:infinity_catalyst"
 			}]
+			rewards: [{
+				id: "285197122A0BE1E4"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3675590367777942626L
+			}]
 		}
 		{
 			x: 1.0d
@@ -26,6 +32,12 @@
 				id: "34F8E35DF4E772C2"
 				type: "item"
 				item: "avaritia:neutron_collector"
+			}]
+			rewards: [{
+				id: "451BEB2D970302EC"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 9172169671890704413L
 			}]
 		}
 		{
@@ -38,6 +50,12 @@
 				type: "item"
 				item: "avaritia:neutronium_ingot"
 			}]
+			rewards: [{
+				id: "75D94FD23EEF4E9C"
+				type: "item"
+				item: "avaritia:neutronium_ingot"
+				count: 8
+			}]
 		}
 		{
 			x: 1.0d
@@ -48,6 +66,12 @@
 				id: "2A3C8B2BA561AA9D"
 				type: "item"
 				item: "avaritia:infinity_ingot"
+			}]
+			rewards: [{
+				id: "7866105078DB8704"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2498518435522323692L
 			}]
 		}
 		{
@@ -168,6 +192,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "143315B5F53A8DD6"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2498518435522323692L
+			}]
 		}
 	]
 	quest_links: [ ]

@@ -1,0 +1,8 @@
+{
+  "type": "exnihilosequentia:heat",
+  "amount": 100,
+  "block": "mekanism:resistive_heater",
+  "state": {
+    "active": "true"
+  }
+}

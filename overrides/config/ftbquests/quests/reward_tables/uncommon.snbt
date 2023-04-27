@@ -1,0 +1,28 @@
+{
+	id: "0EE9C227B2F6B0EF"
+	order_index: 1
+	title: "Uncommon"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:diamond", count: 32 }
+		{ item: "minecraft:emerald", count: 32 }
+		{
+			item: {
+				id: "sophisticatedstorage:diamond_barrel"
+				Count: 1b
+				tag: {
+					woodType: "oak"
+				}
+			}
+		}
+		{
+			item: {
+				id: "sophisticatedstorage:diamond_chest"
+				Count: 1b
+				tag: {
+					woodType: "oak"
+				}
+			}
+		}
+	]
+}

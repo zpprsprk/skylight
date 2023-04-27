@@ -1,0 +1,29 @@
+{
+	id: "533E60BEE1A07BB8"
+	order_index: 0
+	title: "Common"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:iron_ingot", count: 64 }
+		{ item: "minecraft:copper_ingot", count: 64 }
+		{ item: "minecraft:gold_ingot", count: 64 }
+		{
+			item: {
+				id: "sophisticatedstorage:iron_chest"
+				Count: 1b
+				tag: {
+					woodType: "oak"
+				}
+			}
+		}
+		{
+			item: {
+				id: "sophisticatedstorage:iron_barrel"
+				Count: 1b
+				tag: {
+					woodType: "oak"
+				}
+			}
+		}
+	]
+}

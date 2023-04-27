@@ -9,3 +9,19 @@ A bunch of mods
 Changes:
 a few recipe refinements
 more quests added
+
+v. 2.1.4
+Added:
+Trample Stopper
+
+Updated:
+FTB Quests
+Skyblock Builder
+Sophisticated Core
+Sophisticated Storage
+Spark
+
+Changes:
+disabled quark food tooltips (#1)
+adds some quest rewards
+added some more ExNihilo Sequentia heat sources

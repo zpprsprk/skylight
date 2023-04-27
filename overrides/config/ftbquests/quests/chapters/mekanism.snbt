@@ -17,6 +17,12 @@
 				type: "item"
 				item: "mekanism:alloy_infused"
 			}]
+			rewards: [{
+				id: "0DE73EE7CB222C4F"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1074603461866598639L
+			}]
 		}
 		{
 			x: -0.5d
@@ -26,6 +32,12 @@
 				id: "52EABE8C818C71C7"
 				type: "item"
 				item: "mekanism:metallurgic_infuser"
+			}]
+			rewards: [{
+				id: "63D70362E8679D46"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 5998338126649523128L
 			}]
 		}
 		{
@@ -38,6 +50,12 @@
 				type: "item"
 				item: "mekanism:steel_casing"
 			}]
+			rewards: [{
+				id: "5E8623BDA1AA5F3B"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1074603461866598639L
+			}]
 		}
 		{
 			x: -1.5d
@@ -48,6 +66,12 @@
 				id: "050BC28C0A076878"
 				type: "item"
 				item: "mekanism:alloy_reinforced"
+			}]
+			rewards: [{
+				id: "32C59EDFDC62875D"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1074603461866598639L
 			}]
 		}
 		{
@@ -60,6 +84,12 @@
 				type: "item"
 				item: "mekanism:alloy_atomic"
 			}]
+			rewards: [{
+				id: "4D66232691B95696"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 9172169671890704413L
+			}]
 		}
 		{
 			x: -0.5d
@@ -70,6 +100,12 @@
 				id: "5294D7E457D6F15B"
 				type: "item"
 				item: "mekanism:hdpe_pellet"
+			}]
+			rewards: [{
+				id: "70B7532D61A8944B"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1074603461866598639L
 			}]
 		}
 		{
@@ -82,6 +118,12 @@
 				type: "item"
 				item: "mekanism:bio_fuel"
 			}]
+			rewards: [{
+				id: "5109F3E20D130438"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1074603461866598639L
+			}]
 		}
 		{
 			x: -0.5d
@@ -92,6 +134,12 @@
 				id: "3A4DFFD7A770F18D"
 				type: "item"
 				item: "mekanism:substrate"
+			}]
+			rewards: [{
+				id: "68728AC7DDA5D3CB"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1074603461866598639L
 			}]
 		}
 		{
@@ -104,6 +152,12 @@
 				type: "item"
 				item: "mekanism:thermal_evaporation_controller"
 			}]
+			rewards: [{
+				id: "0D250858CF72B4BE"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1074603461866598639L
+			}]
 		}
 		{
 			x: 0.5d
@@ -114,6 +168,12 @@
 				id: "5CC8E55DD09047D2"
 				type: "item"
 				item: "mekanism:dust_lithium"
+			}]
+			rewards: [{
+				id: "29527A583C3D60FD"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 9172169671890704413L
 			}]
 		}
 		{
@@ -134,6 +194,12 @@
 					item: "mekanism:basic_induction_provider"
 				}
 			]
+			rewards: [{
+				id: "4AE5701FBE38B761"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 9172169671890704413L
+			}]
 		}
 		{
 			x: -0.5d
@@ -162,6 +228,12 @@
 					item: "mekanism:mekasuit_boots"
 				}
 			]
+			rewards: [{
+				id: "4EB3B6C0507CA2CF"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3675590367777942626L
+			}]
 		}
 		{
 			x: -0.5d
@@ -172,6 +244,12 @@
 				id: "739A65644C838A24"
 				type: "item"
 				item: "mekanism:pellet_polonium"
+			}]
+			rewards: [{
+				id: "17FD2C2005056E3A"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3675590367777942626L
 			}]
 		}
 	]

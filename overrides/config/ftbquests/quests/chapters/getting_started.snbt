@@ -51,6 +51,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1047A09831F341F7"
+				type: "item"
+				item: "exnihilosequentia:oak_sieve"
+				count: 8
+			}]
 		}
 		{
 			title: "Gravel, Sand, Dust"
@@ -101,6 +107,26 @@
 					}
 				}
 			]
+			rewards: [
+				{
+					id: "1CA9A09F4886D8CA"
+					type: "item"
+					item: "minecraft:gravel"
+					count: 64
+				}
+				{
+					id: "519A68B51C17F666"
+					type: "item"
+					item: "minecraft:sand"
+					count: 64
+				}
+				{
+					id: "6F88E8F5B9F4D653"
+					type: "item"
+					item: "exnihilosequentia:dust"
+					count: 64
+				}
+			]
 		}
 		{
 			x: -0.5d
@@ -111,6 +137,12 @@
 				id: "14FA658184F5405A"
 				type: "item"
 				item: "exnihilosequentia:string_mesh"
+			}]
+			rewards: [{
+				id: "7C8713FB9C29A42F"
+				type: "item"
+				item: "exnihilosequentia:string_mesh"
+				count: 8
 			}]
 		}
 		{
@@ -189,6 +221,12 @@
 				type: "item"
 				item: "exnihilosequentia:flint_mesh"
 			}]
+			rewards: [{
+				id: "6B987E5B752B3D99"
+				type: "item"
+				item: "minecraft:flint"
+				count: 48
+			}]
 		}
 		{
 			x: 1.5d
@@ -200,6 +238,20 @@
 				type: "item"
 				item: "exnihilosequentia:iron_mesh"
 			}]
+			rewards: [
+				{
+					id: "254788EDE54C300C"
+					type: "item"
+					item: "mekanism:dust_iron"
+					count: 8
+				}
+				{
+					id: "1A04DAE4444CD1B5"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5998338126649523128L
+				}
+			]
 		}
 		{
 			x: 2.5d
@@ -211,6 +263,20 @@
 				type: "item"
 				item: "exnihilosequentia:diamond_mesh"
 			}]
+			rewards: [
+				{
+					id: "2D9FA818545C148C"
+					type: "item"
+					item: "mekanism:dust_diamond"
+					count: 8
+				}
+				{
+					id: "28041D2B8D43CC87"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5998338126649523128L
+				}
+			]
 		}
 		{
 			x: 3.5d
@@ -222,6 +288,20 @@
 				type: "item"
 				item: "exnihilosequentia:emerald_mesh"
 			}]
+			rewards: [
+				{
+					id: "5092F49BC077D856"
+					type: "item"
+					item: "mekanism:dust_emerald"
+					count: 8
+				}
+				{
+					id: "5F098E89DF6628E3"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1074603461866598639L
+				}
+			]
 		}
 		{
 			x: 4.5d
@@ -233,6 +313,20 @@
 				type: "item"
 				item: "exnihilosequentia:netherite_mesh"
 			}]
+			rewards: [
+				{
+					id: "012FE876C91691AC"
+					type: "item"
+					item: "mekanism:dust_netherite"
+					count: 8
+				}
+				{
+					id: "6B3E4062018E0AD6"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9172169671890704413L
+				}
+			]
 		}
 	]
 	quest_links: [ ]

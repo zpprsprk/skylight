@@ -1,0 +1,10 @@
+{
+	id: "22AC85478612A4EC"
+	order_index: 4
+	title: "Legendary"
+	loot_size: 1
+	rewards: [
+		{ item: "avaritia:infinity_catalyst", count: 4 }
+		{ item: "avaritia:infinity_ingot" }
+	]
+}

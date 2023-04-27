@@ -16,6 +16,12 @@
 				type: "item"
 				item: "botania:apothecary_default"
 			}]
+			rewards: [{
+				id: "68971CC8929AB5CD"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 5998338126649523128L
+			}]
 		}
 		{
 			x: 0.5d
@@ -26,6 +32,12 @@
 				id: "7C7474430C888C12"
 				type: "item"
 				item: "botania:pure_daisy"
+			}]
+			rewards: [{
+				id: "6E2FB1C0A43DAE05"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 5998338126649523128L
 			}]
 		}
 		{
@@ -45,6 +57,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2EC6720C3C9789D5"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 5998338126649523128L
+			}]
 		}
 		{
 			x: 1.0d
@@ -55,6 +73,12 @@
 				id: "166D6C845F72D57B"
 				type: "item"
 				item: "botania:livingrock"
+			}]
+			rewards: [{
+				id: "3D72D7099A549CB8"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 5998338126649523128L
 			}]
 		}
 		{
@@ -89,6 +113,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "70EECFEEC5336D11"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1074603461866598639L
+			}]
 		}
 		{
 			x: 0.5d
@@ -99,6 +129,12 @@
 				id: "3555A727851396AC"
 				type: "item"
 				item: "botania:runic_altar"
+			}]
+			rewards: [{
+				id: "346229EC41210D28"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1074603461866598639L
 			}]
 		}
 		{
@@ -111,6 +147,12 @@
 				type: "item"
 				item: "botania:terra_plate"
 			}]
+			rewards: [{
+				id: "12D555F7DB44CCA2"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 9172169671890704413L
+			}]
 		}
 		{
 			x: 0.5d
@@ -122,6 +164,12 @@
 				type: "item"
 				item: "botania:alfheim_portal"
 			}]
+			rewards: [{
+				id: "51D1526E97C1611F"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 9172169671890704413L
+			}]
 		}
 		{
 			x: 0.5d
@@ -132,6 +180,12 @@
 				id: "1E8D4BEC522E8D61"
 				type: "item"
 				item: "botania:life_essence"
+			}]
+			rewards: [{
+				id: "02DE13AFB53F5D99"
+				type: "item"
+				item: "botania:life_essence"
+				count: 8
 			}]
 		}
 	]

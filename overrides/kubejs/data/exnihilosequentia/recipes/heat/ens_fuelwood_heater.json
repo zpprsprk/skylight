@@ -1,0 +1,8 @@
+{
+  "type": "exnihilosequentia:heat",
+  "amount": 250,
+  "block": "mekanism:fuelwood_heater",
+  "state": {
+    "active": "true"
+  }
+}
