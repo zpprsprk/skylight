@@ -27,6 +27,7 @@
 		{
 			x: 1.0d
 			y: -5.0d
+			subtitle: "These can be a bit finicky. They will collect neutrons as they sit there, but you won't be able to pipe them out unless you are looking inside the machine."
 			id: "45631C6366F3703B"
 			tasks: [{
 				id: "34F8E35DF4E772C2"
@@ -43,6 +44,7 @@
 		{
 			x: 1.0d
 			y: -4.0d
+			subtitle: "It is recommended to get some neutronium seeds planted as soon as you can... You are going to want a bunch of them..."
 			dependencies: ["45631C6366F3703B"]
 			id: "189C0F93C8AA65D6"
 			tasks: [{

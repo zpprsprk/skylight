@@ -2,10 +2,10 @@
   "type": "mekanism:crushing",
   "input": {
     "ingredient": {
-      "tag": "forge:ingots/ridiculite"
+      "tag": "forge:ender_pearls"
     }
   },
   "output": {
-    "item": "bigreactors:ridiculite_dust"
+    "item": "ae2:ender_dust"
   }
 }

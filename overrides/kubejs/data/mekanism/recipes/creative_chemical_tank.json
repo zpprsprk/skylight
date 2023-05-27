@@ -16,13 +16,13 @@
       "item": "mysticalagradditions:creative_essence"
     },
     "B": {
-      "item": "bigreactors:reinforced_turbineglass"
+      "item": "mekanismgenerators:reactor_glass"
     },
     "C": {
-      "item": "bigreactors:reinforced_turbinecasing"
+      "item": "mekanismgenerators:fission_reactor_casing"
     },
     "D": {
-      "item": "bigreactors:reinforced_reactorcasing"
+      "item": "mekanism:steel_casing"
     },
     "E": {
       "item": "mekanism:ultimate_chemical_tank"

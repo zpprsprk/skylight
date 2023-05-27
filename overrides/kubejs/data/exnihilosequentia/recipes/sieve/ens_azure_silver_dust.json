@@ -1,22 +1,22 @@
 {
   "type": "exnihilosequentia:sieve",
   "input": {
-    "item": "exnihilosequentia:crushed_netherrack"
+    "item": "exnihilosequentia:dust"
   },
   "result": {
-    "item": "bigreactors:benitoite_crystal"
+    "item": "silentgear:azure_silver_dust"
   },
   "rolls": [
     {
-      "chance": 0.02,
+      "chance": 0.03,
       "mesh": "diamond"
     },
     {
-      "chance": 0.04,
+      "chance": 0.06,
       "mesh": "emerald"
     },
     {
-      "chance": 0.06,
+      "chance": 0.09,
       "mesh": "netherite"
     }
   ]

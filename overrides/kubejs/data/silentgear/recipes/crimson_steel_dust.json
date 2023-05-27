@@ -2,10 +2,10 @@
   "type": "mekanism:crushing",
   "input": {
     "ingredient": {
-      "tag": "forge:ingots/magentite"
+      "tag": "forge:ingots/crimson_steel"
     }
   },
   "output": {
-    "item": "bigreactors:magentite_dust"
+    "item": "silentgear:crimson_steel_dust"
   }
 }

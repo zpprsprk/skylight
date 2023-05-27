@@ -1,12 +1,12 @@
 {
   "type": "minecraft:crafting_shaped",
   "result": {
-    "item": "avaritia:pileof_neutrons"
+    "item": "avaritia:pileof_neutrons",
+    "count": 5
   },
   "pattern": [
     " C ",
-    "CCC",
-    " C "
+    "CCC"
   ],
   "key": {
     "C": {

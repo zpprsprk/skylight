@@ -25,3 +25,49 @@ Changes:
 disabled quark food tooltips (#1)
 adds some quest rewards
 added some more ExNihilo Sequentia heat sources
+
+v. 2.2.1
+Changes:
+tweaked cobble generator rates
+updated quests a bit
+refined some recipes
+added ways of getting Silent Gear materials
+
+Added:
+Cooking for Blockheads
+Light Overlay
+
+Removed:
+Extreme Reactors
+
+Updated:
+Apotheosis
+Applied Energistics 2
+Architectury API
+Botania
+Botany Pots
+Botany Trees
+Carry On
+Client Tweaks
+Crafting Tweaks
+Create
+Curios API
+Extreme Reactors
+FastWorkbench
+FTB Essentials
+FTB Library
+FTB Quests
+Item Filters
+JourneyMap
+KleeSlabs
+Mob Grinding Utils
+Placebo
+Powah
+Quark
+RFTools Builder
+Sophisticated Backpacks
+Sophisticated Core
+Sophisticated Storage
+Waystones
+XNet Gases
+ZeroCore 2

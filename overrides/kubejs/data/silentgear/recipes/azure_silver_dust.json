@@ -2,10 +2,10 @@
   "type": "mekanism:crushing",
   "input": {
     "ingredient": {
-      "tag": "forge:ingots/graphite"
+      "tag": "forge:ingots/azure_silver"
     }
   },
   "output": {
-    "item": "bigreactors:graphite_dust"
+    "item": "silentgear:azure_silver_dust"
   }
 }

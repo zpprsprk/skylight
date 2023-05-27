@@ -1,0 +1,16 @@
+{
+  "type": "mekanism:nucleosynthesizing",
+  "itemInput": {
+    "ingredient": {
+      "item": "minecraft:wither_skeleton_skull"
+    }
+  },
+  "gasInput": {
+    "amount": 5,
+    "gas": "mekanism:antimatter"
+  },
+  "output": {
+    "item": "mysticalagradditions:withering_soul"
+  },
+  "duration": 1250
+}

@@ -18,10 +18,9 @@
 				item: "create:creative_motor"
 			}]
 			rewards: [{
-				id: "245B678C258E3F58"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 2498518435522323692L
+				id: "2545F55B2D963DFF"
+				type: "item"
+				item: "create:creative_motor"
 			}]
 		}
 		{
@@ -35,10 +34,9 @@
 				item: "mekanism:creative_chemical_tank"
 			}]
 			rewards: [{
-				id: "3C31081E7AFE6CDA"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 2498518435522323692L
+				id: "50FD607DEFB7B6FB"
+				type: "item"
+				item: "mekanism:creative_chemical_tank"
 			}]
 		}
 		{
@@ -52,50 +50,18 @@
 				item: "mekanism:creative_fluid_tank"
 			}]
 			rewards: [{
-				id: "685035D4A05E5F30"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 2498518435522323692L
-			}]
-		}
-		{
-			x: 0.5d
-			y: -1.0d
-			dependencies: ["2E9CB84D23E967A0"]
-			id: "221A750AD8B8C204"
-			tasks: [{
-				id: "4E1AFAED6F432B74"
+				id: "4FFA80921ABB453D"
 				type: "item"
-				item: "bigreactors:reinforced_reactorcreativewatergenerator"
-			}]
-			rewards: [{
-				id: "5AB4897F7049BB96"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 2498518435522323692L
-			}]
-		}
-		{
-			x: 0.5d
-			y: 0.0d
-			dependencies: ["221A750AD8B8C204"]
-			id: "2C0B208D41298DD3"
-			tasks: [{
-				id: "15F92F66C46A0DBC"
-				type: "item"
-				item: "bigreactors:reinforced_turbinecreativesteamgenerator"
-			}]
-			rewards: [{
-				id: "172EF038F85E69E6"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 2498518435522323692L
+				item: "mekanism:creative_fluid_tank"
 			}]
 		}
 		{
 			x: 1.0d
-			y: 1.0d
-			dependencies: ["2C0B208D41298DD3"]
+			y: -1.0d
+			dependencies: [
+				"389D608D21BA84DA"
+				"2E9CB84D23E967A0"
+			]
 			id: "4BCD90F72897A676"
 			tasks: [{
 				id: "7409067FFB5144E9"
@@ -103,15 +69,14 @@
 				item: "rftoolspower:dimensionalcell_creative"
 			}]
 			rewards: [{
-				id: "31AF01AEDE2289F2"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 2498518435522323692L
+				id: "1ADD3CBE588BF527"
+				type: "item"
+				item: "rftoolspower:dimensionalcell_creative"
 			}]
 		}
 		{
 			x: 1.0d
-			y: 2.0d
+			y: 0.0d
 			dependencies: ["4BCD90F72897A676"]
 			id: "3AE7BC6ADBCBE879"
 			tasks: [{
@@ -120,15 +85,14 @@
 				item: "cyclic:battery_infinite"
 			}]
 			rewards: [{
-				id: "7C00551EB20DBAD6"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 2498518435522323692L
+				id: "222CD25BFA979712"
+				type: "item"
+				item: "cyclic:battery_infinite"
 			}]
 		}
 		{
 			x: 1.0d
-			y: 3.0d
+			y: 1.0d
 			dependencies: ["3AE7BC6ADBCBE879"]
 			id: "5B80653908E0E104"
 			tasks: [{
@@ -143,30 +107,31 @@
 								Container: 0b
 								stored: "18446744073709551615.9999"
 							}]
-							componentConfig: {
-								config0: {
-									side4: 4
-									side3: 4
-									side5: 4
-									side0: 4
-									side2: 4
-									side1: 4
-								}
-							}
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "603BA75BB4074BFA"
+				type: "item"
+				item: {
+					id: "mekanism:creative_energy_cube"
+					Count: 1b
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "18446744073709551615.9999"
+							}]
 						}
 					}
 				}
 			}]
-			rewards: [{
-				id: "0864ABE62A1E67EC"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 2498518435522323692L
-			}]
 		}
 		{
 			x: 1.0d
-			y: 4.0d
+			y: 2.0d
 			dependencies: ["5B80653908E0E104"]
 			id: "08B8D35BB61AF011"
 			tasks: [{
@@ -175,15 +140,14 @@
 				item: "powah:energy_cell_creative"
 			}]
 			rewards: [{
-				id: "27E135BF0E14D7A8"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 2498518435522323692L
+				id: "3195F41CC54A64F1"
+				type: "item"
+				item: "powah:energy_cell_creative"
 			}]
 		}
 		{
 			x: 1.0d
-			y: 5.0d
+			y: 3.0d
 			dependencies: ["08B8D35BB61AF011"]
 			id: "7E4E8B0F7B1242AD"
 			tasks: [{
@@ -192,15 +156,14 @@
 				item: "storagedrawers:creative_vending_upgrade"
 			}]
 			rewards: [{
-				id: "12FD4601DA569A52"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 2498518435522323692L
+				id: "6CC1BC29CD7CA79A"
+				type: "item"
+				item: "storagedrawers:creative_vending_upgrade"
 			}]
 		}
 		{
 			x: 1.5d
-			y: -3.0d
+			y: -4.0d
 			dependencies: ["7BC92939B598779E"]
 			id: "79200E5F8495BD7E"
 			tasks: [{
@@ -214,17 +177,24 @@
 						creative: 1b
 					}
 				}
+				match_nbt: true
 			}]
 			rewards: [{
-				id: "3DEA5ECA769E2C9F"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 2498518435522323692L
+				id: "3D498680B03AFB6B"
+				type: "item"
+				item: {
+					id: "botania:mana_tablet"
+					Count: 1b
+					tag: {
+						mana: 500000
+						creative: 1b
+					}
+				}
 			}]
 		}
 		{
 			x: 1.5d
-			y: -2.0d
+			y: -3.0d
 			dependencies: ["79200E5F8495BD7E"]
 			id: "6CB62A35F00EFA93"
 			tasks: [{
@@ -233,19 +203,15 @@
 				item: "botania:creative_pool"
 			}]
 			rewards: [{
-				id: "2892836DF8D20143"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 2498518435522323692L
+				id: "6F5A15DF34AA09B1"
+				type: "item"
+				item: "botania:creative_pool"
 			}]
 		}
 		{
 			x: 1.5d
-			y: -1.0d
-			dependencies: [
-				"6CB62A35F00EFA93"
-				"4BCD90F72897A676"
-			]
+			y: -2.0d
+			dependencies: ["6CB62A35F00EFA93"]
 			id: "389D608D21BA84DA"
 			tasks: [{
 				id: "590DAFEB1275413C"
@@ -253,10 +219,9 @@
 				item: "ae2:creative_energy_cell"
 			}]
 			rewards: [{
-				id: "2A2A371C2C2EB0DF"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 2498518435522323692L
+				id: "38092A99909E5A91"
+				type: "item"
+				item: "ae2:creative_energy_cell"
 			}]
 		}
 		{

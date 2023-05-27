@@ -2,10 +2,10 @@
   "type": "mekanism:crushing",
   "input": {
     "ingredient": {
-      "tag": "forge:ingots/yellorium"
+      "tag": "forge:ingots/azure_electrum"
     }
   },
   "output": {
-    "item": "bigreactors:yellorium_dust"
+    "item": "silentgear:azure_electrum_dust"
   }
 }

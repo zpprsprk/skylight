@@ -37,7 +37,7 @@
       "item": "laserio:card_fluid"
     },
     "I": {
-      "item": "mekanism:pellet_antimatter"
+      "tag": "forge:pellets/plutonium"
     },
     "J": {
       "item": "mekanism:creative_chemical_tank"

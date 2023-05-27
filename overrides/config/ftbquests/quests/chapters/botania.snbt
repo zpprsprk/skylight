@@ -75,8 +75,8 @@
 				item: "botania:livingrock"
 			}]
 			rewards: [{
-				id: "3D72D7099A549CB8"
-				type: "choice"
+				id: "7066769D39178834"
+				type: "random"
 				exclude_from_claim_all: true
 				table_id: 5998338126649523128L
 			}]

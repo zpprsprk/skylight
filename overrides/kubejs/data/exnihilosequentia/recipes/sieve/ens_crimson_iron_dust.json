@@ -1,22 +1,22 @@
 {
   "type": "exnihilosequentia:sieve",
   "input": {
-    "item": "exnihilosequentia:crushed_end_stone"
+    "item": "exnihilosequentia:dust"
   },
   "result": {
-    "item": "bigreactors:anglesite_crystal"
+    "item": "silentgear:crimson_iron_dust"
   },
   "rolls": [
     {
-      "chance": 0.01,
+      "chance": 0.03,
       "mesh": "diamond"
     },
     {
-      "chance": 0.02,
+      "chance": 0.06,
       "mesh": "emerald"
     },
     {
-      "chance": 0.03,
+      "chance": 0.09,
       "mesh": "netherite"
     }
   ]

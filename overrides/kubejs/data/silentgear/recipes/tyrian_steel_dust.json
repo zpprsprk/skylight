@@ -2,10 +2,10 @@
   "type": "mekanism:crushing",
   "input": {
     "ingredient": {
-      "tag": "forge:ingots/inanite"
+      "tag": "forge:ingots/tyrian_steel"
     }
   },
   "output": {
-    "item": "bigreactors:inanite_dust"
+    "item": "silentgear:tyrian_steel_dust"
   }
 }
