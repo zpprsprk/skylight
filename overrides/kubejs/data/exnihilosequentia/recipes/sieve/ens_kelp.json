@@ -1,0 +1,21 @@
+{
+    "type": "exnihilosequentia:sieve",
+    "input": {
+        "item": "minecraft:sand"
+
+    },
+    "result": {
+        "item": "minecraft:kelp"
+    },
+    "rolls": [
+        {
+            "chance": 0.1,
+            "mesh": "string"
+        },
+        {
+            "chance": 0.2,
+            "mesh": "flint"
+        }
+    ],
+    "waterlogged": true
+}

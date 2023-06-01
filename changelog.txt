@@ -71,3 +71,15 @@ Sophisticated Storage
 Waystones
 XNet Gases
 ZeroCore 2
+
+v. 2.2.2
+Changes:
+added kelp to waterlogged sieve sand output
+
+Added:
+Chicken Chunks
+
+Updated:
+Architectury API
+Bookshelf
+Botania
